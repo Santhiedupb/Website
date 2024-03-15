@@ -30,18 +30,20 @@ function toggleCourseDetails(event) {
 fetch('testimonials.json')
     .then(response => response.json())
     .then(data => {
-        const testimonialCarousel = document.getElementById('testimonialCarousel');
+        const testimonialGrid = document.querySelector('.testimonial-grid');
         data.forEach(testimonial => {
-            const testimonialElement = document.createElement('div');
-            testimonialElement.classList.add('testimonial');
-            testimonialElement.innerHTML = `
-                <p>${testimonial.text}</p>
-                <p>${testimonial.rating}</p>
-                <p>${testimonial.author} - ${testimonial.date}</p>
+            const testimonialCard = document.createElement('div');
+            testimonialCard.classList.add('testimonial-card');
+            testimonialCard.innerHTML = `
+                <p class="testimonial-text">${testimonial.text}</p>
+                <div class="testimonial-footer">
+                    <span class="testimonial-author">${testimonial.author}</span>
+                    <span class="testimonial-date">${testimonial.date}</span>
+                </div>
+                <div class="testimonial-rating">${testimonial.rating}</div>
             `;
-            testimonialCarousel.appendChild(testimonialElement);
+            testimonialGrid.appendChild(testimonialCard);
         });
-        showSlides(); // Start the testimonial carousel
     })
     .catch(error => {
         console.error('Error fetching testimonials:', error);
