@@ -191,12 +191,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        const target = document.querySelector(this.getAttribute('href'));
+        const targetPosition = target.offsetTop;
+        const headerHeight = document.querySelector('header').offsetHeight;
+        const scrollPosition = targetPosition - 90; // Adjust the scroll position
+
+        window.scrollTo({
+            top: scrollPosition,
             behavior: 'smooth'
         });
     });
 });
-
 // Active navigation highlighting
 const sections = document.querySelectorAll('section, footer');
 const navLinks = document.querySelectorAll('.nav-link');
