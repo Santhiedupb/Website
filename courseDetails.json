@@ -1,337 +1,432 @@
 {
-  "Medical": {
-    "MBBS/MD/MS": {
-      "stream": "Medicine",
-      "duration": "MBBS (5.5 years), MD/MS (3 years post-MBBS)",
-      "proficiency": "Biology, Chemistry, Physics",
-      "image": "mbbs.jpg"
-    },
-    "BDS": {
-      "stream": "Dentistry",
-      "duration": "5 years",
-      "proficiency": "Biology, Chemistry, Physics"
-    },
-    "BAMS": {
-      "stream": "Ayurvedic Medicine",
-      "duration": "5.5 years",
-      "proficiency": "Biology, Chemistry, Sanskrit"
-    },
-    "BHMS": {
-      "stream": "Homeopathic Medicine",
-      "duration": "5.5 years",
-      "proficiency": "Biology, Chemistry, Physics"
-    },
-    "BNYS": {
-      "stream": "Naturopathy & Yogic Sciences",
-      "duration": "5.5 years",
-      "proficiency": "Biology, Chemistry, Physical Education"
-    }
+  "Medical Courses": {
+  "MBBS/MD/MS": {
+  "stream": "Medicine",
+  "duration": "MBBS (5.5 years), MD/MS (3 years post-MBBS)",
+  "proficiency": "Biology, Chemistry, Physics",
+  "image": "mbbs.jpg"
   },
-  "Veterinary": {
-    "Veterinary": {
-      "stream": "Veterinary Science",
-      "duration": "5 years",
-      "proficiency": "Biology, Chemistry, Physics"
-    }
+  "BDS": {
+  "stream": "Dental Surgery",
+  "duration": "5 years",
+  "proficiency": "Biology, Chemistry, Physics"
   },
-  "Nursing": {
-    "BSC Nursing": {
-      "stream": "Nursing",
-      "duration": "4 years",
-      "proficiency": "Biology, Chemistry, Nutrition"
-    },
-    "MSC Nursing": {
-      "stream": "Nursing",
-      "duration": "2 years",
-      "proficiency": "Nursing, Specialized Nursing Fields"
-    },
-    "GNM": {
-      "stream": "Nursing & Midwifery",
-      "duration": "3.5 years",
-      "proficiency": "Biology, Healthcare Practices"
-    },
-    "PBSC": {
-      "stream": "Nursing",
-      "duration": "2 years",
-      "proficiency": "General Nursing, Midwifery"
-    }
+  "BAMS": {
+  "stream": "Ayurvedic Medicine and Surgery",
+  "duration": "5.5 years",
+  "proficiency": "Biology, Chemistry, Sanskrit"
   },
-  "Allied Health Science": {
-    "BPT/MPT": {
-      "stream": "Physiotherapy",
-      "duration": "BPT (4.5 years), MPT (2 years)",
-      "proficiency": "Biology, Physical Therapy Techniques"
-    },
-    "BSC Cardiac Care": {
-      "stream": "Cardiac Technology",
-      "duration": "4 years",
-      "proficiency": "Cardiology, Medical Technology"
-    },
-    "BSC Cardiac Vascular Technology": {
-      "stream": "Cardiovascular Technology",
-      "duration": "4 years",
-      "proficiency": "Cardiovascular Systems, Technology"
-    },
-    "BSC Cardio Perfusion": {
-      "stream": "Cardio Perfusion Technology",
-      "duration": "4 years",
-      "proficiency": "Perfusion Technology, Cardiology"
-    },
-    "MSC OT & AT": {
-      "stream": "Occupational Therapy & Anesthesia",
-      "duration": "2 years",
-      "proficiency": "Occupational Therapy, Anesthesia Techniques"
-    },
-    "BSC Renal Dialysis": {
-      "stream": "Renal Dialysis Technology",
-      "duration": "4 years",
-      "proficiency": "Nephrology, Dialysis Technology"
-    },
-    "MSC MLT": {
-      "stream": "Medical Laboratory Technology",
-      "duration": "2 years",
-      "proficiency": "Laboratory Techniques, Pathology"
-    },
-    "BSC Respiratory Care Technology": {
-      "stream": "Respiratory Care Technology",
-      "duration": "4 years",
-      "proficiency": "Respiratory Systems, Care Techniques"
-    },
-    "MSC Neurology": {
-      "stream": "Neurology",
-      "duration": "2 years",
-      "proficiency": "Neurosciences, Clinical Neurology"
-    },
-    "MSC Food & Nutrition": {
-      "stream": "Dietetics & Nutrition",
-      "duration": "2 years",
-      "proficiency": "Nutrition, Diet Planning"
-    }
+  "BHMS": {
+  "stream": "Homeopathic Medicine and Surgery",
+  "duration": "5.5 years",
+  "proficiency": "Biology, Chemistry, Physics"
   },
-  "Pharmacy": {
-    "Pharm D": {
-      "stream": "Pharmacy",
-      "duration": "6 years",
-      "proficiency": "Chemistry, Pharmacology"
-    },
-    "B Pharm": {
-      "stream": "Pharmacy",
-      "duration": "4 years",
-      "proficiency": "Chemistry, Medicinal Chemistry"
-    },
-    "M Pharm": {
-      "stream": "Pharmacy",
-      "duration": "2 years",
-      "proficiency": "Advanced Pharmacology, Pharmacy Practice"
-    },
-    "D Pharm": {
-      "stream": "Pharmacy",
-      "duration": "2 years",
-      "proficiency": "Basic Pharmacology, Pharmacy Laws"
-    }
+  "BNYS": {
+  "stream": "Naturopathy and Yogic Sciences",
+  "duration": "5.5 years",
+  "proficiency": "Biology, Chemistry, Physical Education"
   },
-  "Postgraduate": {
-    "MBA": {
-      "stream": "Business Administration",
-      "duration": "2 years",
-      "proficiency": "Management, Finance, Marketing"
-    },
-    "MCOM": {
-      "stream": "Commerce",
-      "duration": "2 years",
-      "proficiency": "Accounting, Business Studies"
-    },
-    "MCA": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "Mathematics, Computer Science"
-    },
-    "MSW": {
-      "stream": "Social Work",
-      "duration": "2 years",
-      "proficiency": "Sociology, Community Service"
-    },
-    "MHA": {
-      "stream": "Hospital Administration",
-      "duration": "2 years",
-      "proficiency": "Healthcare Management, Hospital Operations"
-    }
-  },
-  "Engineering": {
-    "BTech/MTech/Diploma in Computer Science": {
-      "stream": "Computer Science Engineering",
-      "duration": "BTech (4 years), MTech (2 years), Diploma (3 years)",
-      "proficiency": "Mathematics, Computer Programming"
-    },
-    "Artificial Intelligence": {
-      "stream": "Artificial Intelligence",
-      "duration": "Varies by program",
-      "proficiency": "Machine Learning, AI Concepts"
-    },
-    "Robotics": {
-      "stream": "Robotics Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Mechanical Engineering, Electronics"
-    },
-    "Internet of Things": {
-      "stream": "IoT",
-      "duration": "Varies by program",
-      "proficiency": "Networking, Sensor Technologies"
-    },
-    "Cyber Security": {
-      "stream": "Cyber Security",
-      "duration": "Varies by program",
-      "proficiency": "Information Security, Cryptography"
-    },
-    "Data Science": {
-      "stream": "Data Science",
-      "duration": "Varies by program",
-      "proficiency": "Statistics, Data Analysis"
-    },
-    "Information Technology": {
-      "stream": "Information Technology",
-      "duration": "Varies by program",
-      "proficiency": "Database Management, Networking"
-    },
-    "Mechanical": {
-      "stream": "Mechanical Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Physics, Mechanics"
-    },
-    "ECE": {
-      "stream": "Electronics & Communication Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Electronics, Communication Systems"
-    },
-    "EEE": {
-      "stream": "Electrical & Electronics Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Electrical Circuits, Electronics"
-    },
-    "Civil": {
-      "stream": "Civil Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Physics, Structural Engineering"
-    },
-    "Chemical Engineering": {
-      "stream": "Chemical Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Chemistry, Process Engineering"
-    },
-    "Aeronautical": {
-      "stream": "Aeronautical Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Aerodynamics, Aircraft Design"
-    },
-    "Mechatronics": {
-      "stream": "Mechatronics Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Robotics, Control Systems"
-    },
-    "Petroleum Engineering": {
-      "stream": "Petroleum Engineering",
-      "duration": "Varies by program",
-      "proficiency": "Geology, Drilling Engineering"
-    },
-    "Architecture": {
-      "stream": "Architecture",
-      "duration": "5 years",
-      "proficiency": "Design, Art, Mathematics"
-    }
-  },
-  "Management": {
-    "BBA in Aviation": {
-      "stream": "Aviation Management",
-      "duration": "3 years",
-      "proficiency": "Management, Aviation Studies"
-    },
-    "Logistics Management": {
-      "stream": "Logistics & Supply Chain Management",
-      "duration": "Varies by program",
-      "proficiency": "Operations Management, Supply Chain"
-    },
-    "Business Analytics": {
-      "stream": "Business Analytics",
-      "duration": "Varies by program",
-      "proficiency": "Data Analysis, Business Intelligence"
-    },
-    "BBA Advance": {
-      "stream": "Advanced Business Administration",
-      "duration": "3 years",
-      "proficiency": "Advanced Management Studies, Business Law"
-    },
-    "Digital Marketing": {
-      "stream": "Marketing",
-      "duration": "Varies by program",
-      "proficiency": "Digital Media, Marketing Strategies"
-    },
-    "B.Com ACCA": {
-      "stream": "Commerce with ACCA",
-      "duration": "3 years",
-      "proficiency": "Accounting, ACCA Modules"
-    },
-    "B.Com Logistics": {
-      "stream": "Commerce & Logistics",
-      "duration": "3 years",
-      "proficiency": "Logistics Management, Supply Chain Management"
-    }
-  },
-  "Computer Applications": {
-    "BCA Artificial Intelligence and Machine Learning": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "Programming, Machine Learning Algorithms"
-    },
-    "BCA Cyber Security": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "Cyber Security Principles, Network Security"
-    },
-    "BCA Ethical Hacking": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "Ethical Hacking Techniques, Information Security"
-    },
-    "BCA IoT": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "IoT Concepts, Sensor Networks"
-    },
-    "BCA Robotics": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "Robotics Fundamentals, Automation"
-    },
-    "BCA Machine Learning": {
-      "stream": "Computer Applications",
-      "duration": "3 years",
-      "proficiency": "Machine Learning Concepts, Data Analysis"
-    }
-  },
-  "Marketing": {
-    "Digital Marketing": {
-      "stream": "Marketing",
-      "duration": "Varies by program",
-      "proficiency": "Digital Marketing Strategies, SEO, Social Media Marketing"
-    }
-  },
-  "Arts": {
-    "BA/BVA": {
-      "stream": "Arts",
-      "duration": "4 years",
-      "proficiency": "Art History, Visual Arts Techniques"
-    }
-  },
-  "Law": {
-    "BA LLB": {
-      "stream": "Law",
-      "duration": "5 years (integrated course)",
-      "proficiency": "Legal Studies, Constitutional Law"
-    },
-    "LLM": {
-      "stream": "Law",
-      "duration": "1-2 years",
-      "proficiency": "Specialized Legal Fields, Legal Research"
-    }
+  "VETERINARY": {
+  "stream": "Veterinary Science",
+  "duration": "5 years",
+  "proficiency": "Biology, Chemistry, Animal Anatomy"
   }
+  },
+  "Health Science and Pharmacy Courses": {
+  "BPT/MPT": {
+  "stream": "Physiotherapy",
+  "duration": "BPT (4.5 years), MPT (2 years)",
+  "proficiency": "Biology, Physical Therapy Techniques"
+  },
+  "BSC/MSC Cardiac Care": {
+  "stream": "Cardiac Care",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Cardiology, Medical Technology"
+  },
+  "BSC/MSC Cardiac Perfusion": {
+  "stream": "Cardiac Perfusion",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Cardiovascular Technology, Perfusion Techniques"
+  },
+  "BSC/MSC Radiology": {
+  "stream": "Radiology",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Radiography, Imaging Technology"
+  },
+  "BSC/MSC Renal Dialysis": {
+  "stream": "Renal Dialysis",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Nephrology, Dialysis Technology"
+  },
+  "BSC/MSC Respiratory Care": {
+  "stream": "Respiratory Care",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Respiratory Therapy, Pulmonology"
+  },
+  "BSC/MSC Optometry": {
+  "stream": "Optometry",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Eye Care, Optometric Techniques"
+  },
+  "PHARM.D": {
+  "stream": "Pharmacy",
+  "duration": "6 years",
+  "proficiency": "Pharmacology, Medicinal Chemistry, Pharmacy Practice"
+  },
+  "B PHARM": {
+  "stream": "Pharmacy",
+  "duration": "4 years",
+  "proficiency": "Pharmaceutics, Pharmacology, Pharmacognosy"
+  },
+  "M PHARM": {
+  "stream": "Pharmacy",
+  "duration": "2 years",
+  "proficiency": "Pharmaceutics, Quality Assurance, Pharmacology"
+  },
+  "D PHARM": {
+  "stream": "Pharmacy",
+  "duration": "2 years",
+  "proficiency": "Pharmacology, Biochemistry, Clinical Pharmacy"
+  }
+  },
+  "Nursing Courses": {
+  "BSC NURSING": {
+  "stream": "Nursing",
+  "duration": "4 years",
+  "proficiency": "Biology, Nursing Principles, Patient Care"
+  },
+  "MSC NURSING": {
+  "stream": "Nursing",
+  "duration": "2 years",
+  "proficiency": "Advanced Nursing, Research, Specializations"
+  },
+  "GNM": {
+  "stream": "General Nursing and Midwifery",
+  "duration": "3 years",
+  "proficiency": "Nursing Care, Midwifery, Biology"
+  
+  },
+  "PBBSC": {
+  "stream": "Post Basic BSc Nursing",
+  "duration": "2 years",
+  "proficiency": "Nursing, Specializations, Management"
+  }
+  },
+  "PG Courses": {
+  "MBA": {
+  "stream": "Management",
+  "duration": "2 years",
+  "proficiency": "Finance, Marketing, Human Resources"
+  },
+  "MCA": {
+  "stream": "Computer Applications",
+  "duration": "2 years",
+  "proficiency": "Programming, Databases, Computer Science"
+  },
+  "MSW": {
+  "stream": "Social Work",
+  "duration": "2 years",
+  "proficiency": "Social Work Methods, Social Research, Social Policy"
+  },
+  "MA": {
+  "stream": "Arts",
+  "duration": "2 years",
+  "proficiency": "Specialization Subject, Research Methodology"
+  },
+  "MHA": {
+  "stream": "Hospital Administration",
+  "duration": "2 years",
+  "proficiency": "Healthcare Management, Hospital Operations"
+  }
+  },
+  "Engineering Courses": {
+  "BTECH/MTECH/DIPLOMA": {
+  "COMPUTER SCIENCE": {
+  "stream": "Computer Science and Engineering",
+  "duration": "BTech (4 years), MTech (2 years), Diploma (3 years)",
+  "proficiency": "Programming, Data Structures, Algorithms"
+  },
+  "ARTIFICIAL INTELLIGENCE": {
+  "stream": "Artificial Intelligence",
+  "duration": "Varies by Program",
+  "proficiency": "Machine Learning, Natural Language Processing, Robotics"
+  },
+  "ROBOTICS": {
+  "stream": "Robotics Engineering",
+  "duration": "Varies by Program",
+  "proficiency": "Mechatronics, Control Systems, Automation"
+  },
+  "INTERNET OF THINGS": {
+  "stream":"Internet of Things",
+  "duration": "Varies by Program",
+  "proficiency": "Embedded Systems, Wireless Networks, Sensor Technology"
+  },
+  "CYBER SECURITY": {
+  "stream": "Cyber Security",
+  "duration": "Varies by Program",
+  "proficiency": "Network Security, Cryptography, Ethical Hacking"
+  },
+  "DATA SCIENCE": {
+  "stream": "Data Science",
+  "duration": "Varies by Program",
+  "proficiency": "Statistics, Data Mining, Machine Learning"
+  },
+  "INFORMATION TECHNOLOGY": {
+  "stream": "Information Technology",
+  "duration": "Varies by Program",
+  "proficiency": "Web Development, Database Management, Networking"
+  },
+  "MACHINE LEARNING": {
+  "stream": "Machine Learning",
+  "duration": "Varies by Program",
+  "proficiency": "Artificial Intelligence, Deep Learning, Data Analysis"
+  
+  },
+  "MECHANICAL": {
+  "stream": "Mechanical Engineering",
+  "duration":"4 years",
+  "proficiency": "Thermodynamics, Fluid Mechanics, Machine Design"
+  },
+  "CIVIL": {
+  "stream":"Civil Engineering",
+  "duration": "4 years",
+  "proficiency": "Structural Engineering, Geotechnical Engineering, Transportation Engineering"
+  },
+  "EEE": {
+  "stream":"Electrical and Electronics Engineering",
+  "duration": "4 years",
+  "proficiency": "Circuit Analysis, Power Systems, Control Systems"
+  },
+  "ECE": {
+  "stream": "Electronics and Communication Engineering",
+  "duration": "4 years",
+  "proficiency":"Analog and Digital Electronics, Signals and Systems, Embedded Systems"
+  },
+  "CHEMICAL ENGINEERING": {
+  "stream": "Chemical Engineering",
+  "duration": "4 years",
+  "proficiency": "Transport Phenomena, Chemical Reaction Engineering, Process Control"
+  },
+  "AERONAUTICAL": {
+  "stream":"Aeronautical Engineering",
+  "duration":"4 years",
+  "proficiency": "Aerodynamics, Aircraft Structures, Propulsion Systems"
+  },
+  "MECHATRONICS": {
+  "stream": "Mechatronics Engineering",
+  "duration": "4 years",
+  "proficiency": "Robotics, Control Systems, Embedded Systems"
+  },
+  "PETROLEUM": {
+  "stream": "Petroleum Engineering",
+  "duration": "4 years",
+  "proficiency": "Reservoir Engineering, Drilling Engineering, Production Engineering"
+  },
+  "AGRICULTURE": {
+  "stream": "Agricultural Engineering",
+  "duration": "4 years",
+  "proficiency": "Soil and Water Conservation, Food Process Engineering, Farm Machinery"
+  
+  }
+  },
+  "ARCHITECTURE": {
+  "stream": "Architecture",
+  "duration": "5 years",
+  "proficiency": "Architectural Design, Building Materials, Urban Planning"
+  }
+  },
+  "Management Courses": {
+  "BBA": {
+  "stream": "Business Administration",
+  "duration": "3 years",
+  "proficiency": "Marketing, Finance, Human Resources"
+  },
+  "BBA AVIATION": {
+  "stream": "Aviation Management",
+  "duration": "3 years",
+  "proficiency": "Aviation Industry, Airport Management, Airline Operations"
+  },
+  "BBA LOGISTICS": {
+  "stream": "Logistics Management",
+  "duration": "3 years",
+  "proficiency": "Supply Chain Management, Transportation, Warehousing"
+  },
+  "BBA BUSINESS ANALYTICS": {
+  "stream": "Business Analytics",
+  "duration": "3 years",
+  "proficiency": "Data Analysis, Statistical Modeling, Business Intelligence"
+  },
+  "BBA SPORTS MANAGEMENT": {
+  "stream": "Sports Management",
+  "duration": "3 years",
+  "proficiency": "Sports Marketing, Event Management, Sports Law"
+  },
+  "BBA ADVANCE": {
+  "stream": "Business Administration (Advanced)",
+  "duration": "3 years",
+  "proficiency": "Strategic Management, Entrepreneurship, International Business"
+  },
+  "BBA DIGITAL MARKETING": {
+  "stream": "Digital Marketing",
+  "duration": "3 years",
+  "proficiency": "Digital Marketing Strategy, SEO, Social Media Marketing"
+  },
+  "B.COM ACCA": {
+  "stream": "Commerce with ACCA",
+  "duration": "3 years",
+  "proficiency": "Accounting, Taxation, Financial Reporting"
+  },
+  "B.COM CMA": {
+  "stream": "Commerce with CMA",
+  "duration": "3 years",
+  "proficiency": "Cost Accounting, Financial Management, Operations Management"
+  },
+  "B.COM LOGISTICS": {
+  "stream": "Commerce with Logistics",
+  "duration": "3 years",
+  "proficiency": "Supply Chain Management, International Trade, Logistics Management"
+  }
+  },
+  "Law Courses": {
+  "BA LLB": {
+  "stream": "Law with Arts",
+  "duration": "5 years",
+  "proficiency": "Legal Theory, Jurisprudence, Constitutional Law"
+  },
+  "BBA LLB": {
+  "stream": "Law with Business Administration",
+  "duration": "5 years",
+  "proficiency": "Corporate Law, Taxation Law, Intellectual Property Rights"
+  },
+  "LLM": {
+  "stream": "Master of Laws",
+  "duration": "1 year",
+  "proficiency": "Specializations like Business Law, Criminal Law, International Law"
+  }
+  },
+  "Other Courses": {
+  "BCA": {
+  "ARTIFICIAL INTELLIGENCE": {
+  "stream": "Computer Applications with Artificial Intelligence",
+  "duration": "3 years",
+  "proficiency": "Programming, Machine Learning, Natural Language Processing"
+  },
+  "CLOUD COMPUTING": {
+  "stream": "Computer Applications with Cloud Computing",
+  "duration": "3 years",
+  "proficiency": "Cloud Architecture, Virtualization, Cloud Security"
+  
+  },
+  "CYBER SECURITY": {
+  "stream": "Computer Applications with Cyber Security",
+  
+  "duration": "3 years",
+  "proficiency": "Network Security, Cryptography, Ethical Hacking"
+  },
+  "ETHICAL HACKING": {
+  "stream": "Computer Applications with Ethical Hacking",
+  "duration": "3 years",
+  "proficiency": "Penetration Testing, Vulnerability Assessment, Cybercrime Investigation"
+  },
+  "IOT": {
+  "stream": "Computer Applications with Internet of Things",
+  "duration": "3 years",
+  "proficiency": "Embedded Systems, Wireless Networks, Sensor Technology"
+  },
+  "ROBOTICS": {
+  "stream": "Computer Applications with Robotics",
+  "duration": "3 years",
+  "proficiency": "Robotics Programming, Mechatronics, Automation"
+  },
+  "MACHINE LEARNING": {
+  "stream": "Computer Applications with Machine Learning",
+  "duration": "3 years",
+  "proficiency": "Data Mining, Predictive Modeling, Deep Learning"
+  }
+  },
+  "BA": {
+  "stream": "Bachelor of Arts",
+  "duration": "3 years",
+  "proficiency": "Humanities, Social Sciences, Languages"
+  },
+  "BVA": {
+  "stream": "Bachelor of Visual Arts",
+  "duration": "4 years",
+  "proficiency": "Fine Arts, Art History, Aesthetics"
+  },
+  "BHM": {
+  "stream": "Hotel Management",
+  "duration": "4 years",
+  "proficiency": "Food Production, Front Office Operations, Hospitality Law"
+  },
+  "BHA": {
+  "stream": "Hospital Administration",
+  "duration": "3 years",
+  "proficiency": "Hospital Operations, Healthcare Finance, Quality Management"
+  },
+  "BSW": {
+  "stream": "Social Work",
+  "duration": "3 years",
+  "proficiency": "Social Work Methods, Psychology, Sociology"
+  },
+  "BSC/MSC BIOTECHNOLOGY/MICROBIOLOGY/BIOCHEMISTRY": {
+  "stream": "Biotechnology/Microbiology/Biochemistry",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Cell Biology, Genetics, Molecular Biology"
+  },
+  "BSC FASHION DESIGN": {
+  "stream": "Fashion Design",
+  "duration": "3-4 years",
+  "proficiency": "Fashion Illustration, Pattern Making, Textile Science"
+  },
+  "BSC/MSC FORENSIC SCIENCE": {
+  "stream": "Forensic Science",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Crime Scene Investigation, Forensic Psychology, Forensic Chemistry"
+  
+  },
+  "BSC/MSC CRIMINOLOGY": {
+  "stream": "Criminology",
+  "duration": "BSc (3 years), MSc (2 years)",
+  "proficiency": "Criminal Law, Victimology, Penology"
+  },
+  "BSC/MSC AGRICULTURE": {
+  "stream": "Agriculture",
+  "duration": "BSc (4 years), MSc (2 years)",
+  "proficiency": "Agronomy, Horticulture, Soil Science"
+  
+  },
+  "PSYCHOLOGY": {
+  "BA/MA": {
+  "stream": "Psychology",
+  "duration": "BA (3 years), MA (2 years)",
+"proficiency": "Developmental Psychology, Clinical Psychology, Organizational Behavior"
+},
+"BSC/MSC": {
+"stream": "Psychology",
+"duration": "BSc (3 years), MSc (2 years)",
+"proficiency": "Cognitive Psychology, Neuropsychology, Research Methods"
+}
+},
+"BSC AGRICULTURE": {
+"stream": "Agriculture",
+"duration": "4 years",
+"proficiency": "Crop Science, Animal Husbandry, Agricultural Economics"
+},
+"B.ED": {
+"stream": "Education",
+"duration": "2 years",
+"proficiency": "Pedagogy, Educational Psychology, Teaching Methods"
+},
+"D.ED": {
+"stream": "Elementary Education",
+"duration": "2 years",
+"proficiency": "Child Development, Teaching Methodology, Curriculum Design"
+},
+"BA DIGITAL MARKETING": {
+"stream": "Digital Marketing",
+"duration": "3 years",
+"proficiency": "Digital Marketing Strategy, SEO, Social Media Marketing"
+}
+}
 }
