@@ -142,9 +142,10 @@ function selectCourse(courseId) {
     let answerBox = document.getElementById('dynamic-content');
     answerBox.innerHTML = `
         <h4>${courseId}</h4>
-        <p>Stream: ${details.stream}</p>
+        <p>Description: ${details.description}</p>
         <p>Duration: ${details.duration}</p>
-        <p>Proficiency in Subjects: ${details.proficiency}</p>
+        <p>Future Job Opportunities: ${details.future_job_opportunities}</p>
+        <p>Aspiring Students: ${details.aspiring_students}</p>
     `;
     answerBox.classList.add('show');
     answerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
