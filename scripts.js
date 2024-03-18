@@ -1,90 +1,81 @@
-let currentDropdown = null;
+let courseDetails = {};
 
-function toggleCourseDetails(event) {
+// Function to show course popup
+function showCoursePopup(event) {
     const categoryButton = event.currentTarget;
-    const courseDropdown = categoryButton.nextElementSibling;
+    const courseHeading = categoryButton.textContent;
+    const popupCourseHeading = document.getElementById('popupCourseHeading');
+    const courseList = document.getElementById('courseList');
+    const coursePopup = document.getElementById('coursePopup');
 
-    // Close all other dropdowns
-    document.querySelectorAll('.course-dropdown').forEach(dropdown => {
-        dropdown.style.opacity = '0';
-        dropdown.style.visibility = 'hidden';
-        dropdown.previousElementSibling.classList.remove('active');
-    });
+    popupCourseHeading.textContent = courseHeading;
+    courseList.innerHTML = '';
 
-    // If the new dropdown is the same as the current one, clear currentDropdown
-    if (courseDropdown === currentDropdown) {
-        currentDropdown = null;
-    } else {
-        // Otherwise, open the new dropdown and set it as the current one
-        categoryButton.classList.add('active');
-        courseDropdown.style.opacity = '1';
-        courseDropdown.style.visibility = 'visible';
-        currentDropdown = courseDropdown;
+    for (const courseId in courseDetails[courseHeading]) {
+        const courseItem = document.createElement('div');
+        courseItem.classList.add('course-item');
+        courseItem.textContent = courseId;
+        courseItem.addEventListener('click', () => {
+            showCourseDetails(courseId, courseHeading);
+        });
+        courseList.appendChild(courseItem);
     }
 
-    // Scroll to the course details
-    courseDropdown.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    coursePopup.style.display = 'block';
 }
 
-// Fetch testimonials
-fetch('testimonials.json')
-    .then(response => response.json())
-    .then(data => {
-        const testimonialGrid = document.querySelector('.testimonial-grid');
-        data.forEach(testimonial => {
-            const testimonialCard = document.createElement('div');
-            testimonialCard.classList.add('testimonial-card');
-            testimonialCard.innerHTML = `
-                <p class="testimonial-text">${testimonial.text}</p>
-                <div class="testimonial-footer">
-                    <span class="testimonial-author">${testimonial.author}</span>
-                    <span class="testimonial-date">${testimonial.date}</span>
-                </div>
-                <div class="testimonial-rating">${testimonial.rating}</div>
-            `;
-            testimonialGrid.appendChild(testimonialCard);
-        });
-    })
-    .catch(error => {
-        console.error('Error fetching testimonials:', error);
-    });
+// Function to show course details
+function showCourseDetails(courseId, courseHeading) {
+    const courseInfo = courseDetails[courseHeading][courseId];
+    const courseDetailsHeading = document.getElementById('courseDetailsHeading');
+    const courseDetailsInfo = document.getElementById('courseDetailsInfo');
+    const courseDetailsPopup = document.getElementById('courseDetailsPopup');
+    const coursePopup = document.getElementById('coursePopup');
 
-// Fetch course details
+    if (courseInfo) {
+        courseDetailsHeading.textContent = courseId;
+        courseDetailsInfo.innerHTML = `
+            <p><strong>Description:</strong> ${courseInfo.description}</p>
+            <p><strong>Duration:</strong> ${courseInfo.duration}</p>
+            <p><strong>Future Job Opportunities:</strong> ${courseInfo.future_job_opportunities}</p>
+            <p><strong>Aspiring Students:</strong> ${courseInfo.aspiring_students}</p>
+        `;
+        coursePopup.style.display = 'none';
+        courseDetailsPopup.style.display = 'block';
+    } else {
+        console.error(`Course details not found for courseId: ${courseId}`);
+    }
+}
+// Close course details popup when close button is clicked
+const closeDetailsPopupBtn = document.getElementById('closeDetailsPopupBtn');
+closeDetailsPopupBtn.addEventListener('click', () => {
+    const courseDetailsPopup = document.getElementById('courseDetailsPopup');
+    courseDetailsPopup.style.display = 'none';
+});
+// Fetch course details from courseDetails.json
 fetch('courseDetails.json')
     .then(response => response.json())
     .then(data => {
-        courseDetails = data; // Store course details globally
+        courseDetails = data;
         const coursesGrid = document.getElementById('coursesGrid');
-        // Generate course category containers dynamically
         for (const courseHeading in data) {
-            const courseCategoryContainer = document.createElement('div');
-            courseCategoryContainer.classList.add('course-category-container');
-            courseCategoryContainer.innerHTML = `
-                <button class="course-category">${courseHeading}</button>
-                <div class="course-dropdown"></div>
-            `;
-            coursesGrid.appendChild(courseCategoryContainer);
-
-            const courseDropdown = courseCategoryContainer.querySelector('.course-dropdown');
-            // Generate course items dynamically
-            for (const courseId in data[courseHeading]) {
-                const courseItem = document.createElement('div');
-                courseItem.classList.add('course-item');
-                courseItem.setAttribute('data-course-id', courseId);
-                courseItem.innerHTML = `<h4>${courseId}</h4>`;
-                courseItem.addEventListener('click', () => selectCourse(courseId));
-                courseDropdown.appendChild(courseItem);
-            }
+            const categoryButton = document.createElement('button');
+            categoryButton.classList.add('course-category');
+            categoryButton.textContent = courseHeading;
+            categoryButton.addEventListener('click', showCoursePopup);
+            coursesGrid.appendChild(categoryButton);
         }
-
-        // Add event listeners for course category buttons
-        document.querySelectorAll('.course-category').forEach(button => {
-            button.addEventListener('click', toggleCourseDetails);
-        });
     })
     .catch(error => {
         console.error('Error fetching course details:', error);
     });
+
+// Close course popup when close button is clicked
+const closePopupBtn = document.getElementById('closePopupBtn');
+closePopupBtn.addEventListener('click', () => {
+    const coursePopup = document.getElementById('coursePopup');
+    coursePopup.style.display = 'none';
+});
 
 // Fetch FAQ data
 fetch('faq.json')
@@ -106,96 +97,45 @@ fetch('faq.json')
         console.error('Error fetching FAQ data:', error);
     });
 
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        const activeElement = document.activeElement;
-        if (activeElement.classList.contains('course-category')) {
-            toggleCourseDetails({ currentTarget: activeElement });
-        }
-    }
-});
-
-// Function to move slides in the testimonial carousel
-let slideIndex = 0;
-const slides = document.querySelectorAll('.testimonial');
-const totalSlides = slides.length;
-
-function showSlides() {
-    for (let i = 0; i < totalSlides; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > totalSlides) { slideIndex = 1 }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 4000); // Change image every 4 seconds
-}
-
-function selectCourse(courseId) {
-    let details;
-    for (const courseHeading in courseDetails) {
-        if (courseDetails[courseHeading][courseId]) {
-            details = courseDetails[courseHeading][courseId];
-            break;
-        }
-    }
-
-    let answerBox = document.getElementById('dynamic-content');
-    answerBox.innerHTML = `
-        <h4>${courseId}</h4>
-        <p>Description: ${details.description}</p>
-        <p>Duration: ${details.duration}</p>
-        <p>Future Job Opportunities: ${details.future_job_opportunities}</p>
-        <p>Aspiring Students: ${details.aspiring_students}</p>
-    `;
-    answerBox.classList.add('show');
-    answerBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
-// When the user scrolls the page, execute the stickyNavbar function
+// Sticky navbar functionality
 window.onscroll = function () { stickyNavbar() };
 
-// Get the header
 var header = document.querySelector('header');
-
-// Get the logo container
 var logoContainer = document.querySelector('.logo-container');
 
-// Calculate the height of the header
-var headerHeight = header.offsetHeight;
-
-// Function to add or remove the sticky class from the navbar
 function stickyNavbar() {
     var scrollPosition = window.pageYOffset;
     var logoContainerHeight = logoContainer.offsetHeight;
 
     if (scrollPosition >= logoContainerHeight) {
-        header.style.position = 'fixed'; /* Change to fixed positioning */
+        header.style.position = 'fixed';
         header.style.top = '0';
     } else {
-        header.style.position = 'relative'; /* Keep it relative */
+        header.style.position = 'relative';
         header.style.top = 'initial';
     }
 }
 
-// Call the stickyNavbar function to set the initial state
 stickyNavbar();
 
-// JavaScript to display thumbnail after video ends
+// Display thumbnail after video ends
 document.addEventListener('DOMContentLoaded', (event) => {
     const video = document.getElementById('santhiVideo');
     video.addEventListener('ended', (e) => {
-        video.load(); // This will reload the video and show the poster image as thumbnail
+        video.load();
     });
 });
 
 // Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
         e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        const targetPosition = target.offsetTop;
+        const targetId = link.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        const targetPosition = targetSection.offsetTop;
         const headerHeight = document.querySelector('header').offsetHeight;
-        const scrollPosition = targetPosition - 90; // Adjust the scroll position
+        const scrollPosition = targetPosition - 90;
 
         window.scrollTo({
             top: scrollPosition,
@@ -203,9 +143,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
 // Active navigation highlighting
 const sections = document.querySelectorAll('section, footer');
-const navLinks = document.querySelectorAll('.nav-link');
 
 window.addEventListener('scroll', () => {
     let current = '';
@@ -227,3 +167,21 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+// Integrate SociableKit Google Reviews widget
+function integrateGoogleReviewsWidget() {
+    const widgetScript = document.createElement('script');
+    widgetScript.src = 'https://widgets.sociablekit.com/google-reviews/widget.js';
+    widgetScript.async = true;
+    widgetScript.defer = true;
+    document.head.appendChild(widgetScript);
+
+    const widgetContainer = document.createElement('div');
+    widgetContainer.classList.add('sk-ww-google-reviews');
+    widgetContainer.setAttribute('data-embed-id', '25382951');
+
+    const reviewsSection = document.getElementById('reviews');
+    reviewsSection.appendChild(widgetContainer);
+}
+
+integrateGoogleReviewsWidget();
