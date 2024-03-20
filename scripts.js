@@ -16,7 +16,7 @@ function showCoursePopup(event) {
         courseItem.classList.add('course-item');
         
         const courseImage = document.createElement('img');
-        courseImage.src = `courses images/${courseDetails[courseHeading].courses[courseId].image}`;
+        courseImage.src = courseDetails[courseHeading].courses[courseId].image;
         courseImage.alt = courseId;
         
         const courseTitle = document.createElement('h4');
@@ -47,7 +47,7 @@ function showCourseDetails(courseId, courseHeading) {
         courseDetailsHeading.textContent = courseId;
         
         const courseImage = document.createElement('img');
-        courseImage.src = `courses images/${courseInfo.image}`;
+        courseImage.src = courseInfo.image;
         courseImage.alt = courseId;
         
         courseDetailsInfo.innerHTML = `
@@ -73,7 +73,6 @@ closeDetailsPopupBtn.addEventListener('click', () => {
     const courseDetailsPopup = document.getElementById('courseDetailsPopup');
     courseDetailsPopup.style.display = 'none';
 });
-// Fetch course details from courseDetails.json
 fetch('courseDetails.json')
     .then(response => response.json())
     .then(data => {
@@ -85,7 +84,7 @@ fetch('courseDetails.json')
             categoryDiv.setAttribute('data-category', courseHeading);
             
             const categoryImage = document.createElement('img');
-            categoryImage.src = `courses images/${data[courseHeading].image}`;
+            categoryImage.src = data[courseHeading].image;
             categoryImage.alt = courseHeading;
             
             const categoryTitle = document.createElement('h3');
