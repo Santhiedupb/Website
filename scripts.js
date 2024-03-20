@@ -1,5 +1,3 @@
-let courseDetails = {};
-
 // Function to show course popup
 function showCoursePopup(event) {
     const categoryButton = event.currentTarget;
@@ -73,6 +71,8 @@ closeDetailsPopupBtn.addEventListener('click', () => {
     const courseDetailsPopup = document.getElementById('courseDetailsPopup');
     courseDetailsPopup.style.display = 'none';
 });
+
+// Fetch course details from courseDetails.json
 fetch('courseDetails.json')
     .then(response => response.json())
     .then(data => {
@@ -108,7 +108,6 @@ closePopupBtn.addEventListener('click', () => {
     const coursePopup = document.getElementById('coursePopup');
     coursePopup.style.display = 'none';
 });
-
 // Fetch FAQ data
 fetch('faq.json')
     .then(response => response.json())
