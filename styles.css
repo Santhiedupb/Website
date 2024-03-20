@@ -281,23 +281,100 @@ html, body {
     }
     
     .courses-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
-    align-items: start;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        justify-items: center;
+        text-align: center;
     }
-    
-    .course-item {
-    display: block;
-    padding: 1rem;
-    background: var(--bg-100);
-    border-radius: var(--radius);
-    margin: 0.5rem 0;
-    transition: var(--transition);
-    cursor: pointer;
+    .course-category {
+        cursor: pointer;
+    }
+    .course-category img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .course-category h3 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .course-popup,
+.course-details-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.course-popup-content,
+.course-details-popup-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
     position: relative;
-    }
+    text-align: center;
+}
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.course-item {
+    cursor: pointer;
+}
+.course-item img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
     
+.course-item h4 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.course-details-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.course-image {
+    flex: 1 1 300px;
+}
+.course-image img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.course-details {
+    flex: 1 1 300px;
+    text-align: left;
+}
     .course-item::before {
     content: '';
     position: absolute;
