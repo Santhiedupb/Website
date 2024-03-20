@@ -3,7 +3,7 @@ let courseDetails = {};
 // Function to show course popup
 function showCoursePopup(event) {
     const categoryButton = event.currentTarget;
-    const courseHeading = categoryButton.textContent;
+    const courseHeading = categoryButton.getAttribute('data-category');
     const popupCourseHeading = document.getElementById('popupCourseHeading');
     const courseList = document.getElementById('courseList');
     const coursePopup = document.getElementById('coursePopup');
@@ -11,13 +11,24 @@ function showCoursePopup(event) {
     popupCourseHeading.textContent = courseHeading;
     courseList.innerHTML = '';
 
-    for (const courseId in courseDetails[courseHeading]) {
+    for (const courseId in courseDetails[courseHeading].courses) {
         const courseItem = document.createElement('div');
         courseItem.classList.add('course-item');
-        courseItem.textContent = courseId;
+        
+        const courseImage = document.createElement('img');
+        courseImage.src = `courses images/${courseDetails[courseHeading].courses[courseId].image}`;
+        courseImage.alt = courseId;
+        
+        const courseTitle = document.createElement('h4');
+        courseTitle.textContent = courseId;
+        
+        courseItem.appendChild(courseImage);
+        courseItem.appendChild(courseTitle);
+        
         courseItem.addEventListener('click', () => {
             showCourseDetails(courseId, courseHeading);
         });
+        
         courseList.appendChild(courseItem);
     }
 
@@ -26,7 +37,7 @@ function showCoursePopup(event) {
 
 // Function to show course details
 function showCourseDetails(courseId, courseHeading) {
-    const courseInfo = courseDetails[courseHeading][courseId];
+    const courseInfo = courseDetails[courseHeading].courses[courseId];
     const courseDetailsHeading = document.getElementById('courseDetailsHeading');
     const courseDetailsInfo = document.getElementById('courseDetailsInfo');
     const courseDetailsPopup = document.getElementById('courseDetailsPopup');
@@ -34,18 +45,28 @@ function showCourseDetails(courseId, courseHeading) {
 
     if (courseInfo) {
         courseDetailsHeading.textContent = courseId;
+        
+        const courseImage = document.createElement('img');
+        courseImage.src = `courses images/${courseInfo.image}`;
+        courseImage.alt = courseId;
+        
         courseDetailsInfo.innerHTML = `
-            <p><strong>Description:</strong> ${courseInfo.description}</p>
-            <p><strong>Duration:</strong> ${courseInfo.duration}</p>
-            <p><strong>Future Job Opportunities:</strong> ${courseInfo.future_job_opportunities}</p>
-            <p><strong>Aspiring Students:</strong> ${courseInfo.aspiring_students}</p>
+            <div class="course-image">${courseImage.outerHTML}</div>
+            <div class="course-details">
+                <p><strong>Description:</strong> ${courseInfo.description}</p>
+                <p><strong>Duration:</strong> ${courseInfo.duration}</p>
+                <p><strong>Future Job Opportunities:</strong> ${courseInfo.future_job_opportunities}</p>
+                <p><strong>Aspiring Students:</strong> ${courseInfo.aspiring_students}</p>
+            </div>
         `;
+        
         coursePopup.style.display = 'none';
         courseDetailsPopup.style.display = 'block';
     } else {
         console.error(`Course details not found for courseId: ${courseId}`);
     }
 }
+
 // Close course details popup when close button is clicked
 const closeDetailsPopupBtn = document.getElementById('closeDetailsPopupBtn');
 closeDetailsPopupBtn.addEventListener('click', () => {
@@ -59,11 +80,23 @@ fetch('courseDetails.json')
         courseDetails = data;
         const coursesGrid = document.getElementById('coursesGrid');
         for (const courseHeading in data) {
-            const categoryButton = document.createElement('button');
-            categoryButton.classList.add('course-category');
-            categoryButton.textContent = courseHeading;
-            categoryButton.addEventListener('click', showCoursePopup);
-            coursesGrid.appendChild(categoryButton);
+            const categoryDiv = document.createElement('div');
+            categoryDiv.classList.add('course-category');
+            categoryDiv.setAttribute('data-category', courseHeading);
+            
+            const categoryImage = document.createElement('img');
+            categoryImage.src = `courses images/${data[courseHeading].image}`;
+            categoryImage.alt = courseHeading;
+            
+            const categoryTitle = document.createElement('h3');
+            categoryTitle.textContent = courseHeading;
+            
+            categoryDiv.appendChild(categoryImage);
+            categoryDiv.appendChild(categoryTitle);
+            
+            categoryDiv.addEventListener('click', showCoursePopup);
+            
+            coursesGrid.appendChild(categoryDiv);
         }
     })
     .catch(error => {
