@@ -1,551 +1,649 @@
 {
   "Medical Courses": {
-  "MBBS/MD/MS": {
-  "description": "MBBS (Bachelor of Medicine, Bachelor of Surgery) is a five-year undergraduate program that trains students to become medical practitioners. MD/MS are postgraduate degrees that offer specialization in various medical fields.",
-  "duration": "5 years for MBBS, 3 years for MD/MS",
-  "future_job_opportunities": "Medical practitioner, specialization in fields like cardiology, neurology, gastroenterology, opportunities in hospitals, clinics, private practice",
-  "aspiring_students": "Students aspiring to become doctors and specialize in medical fields"
-  },
-  "BDS/MDS": {
-  "description": "BDS (Bachelor of Dental Surgery) is a five-year undergraduate program focusing on dental sciences. MDS offers postgraduate specialization in dentistry.",
-  "duration": "5 years for BDS",
-  "future_job_opportunities": "Dental practitioner in private clinics, hospitals, government healthcare facilities, opportunities in dental research, lecturing, specialized fields",
-  "aspiring_students": "Students passionate about pursuing a rewarding career in dentistry"
-  },
-  "BAMS": {
-  "description": "BAMS (Bachelor of Ayurvedic Medicine and Surgery) is a program that educates students in Ayurvedic principles and practices.",
-  "duration": "5 years",
-  "future_job_opportunities": "Ayurvedic practitioner, research, teaching, healthcare management, wellness consultant",
-  "aspiring_students": "Students enthusiastic about embracing the ancient wisdom of Ayurveda"
-  },
-  "BHMS": {
-  "description": "BHMS (Bachelor of Homeopathic Medicine and Surgery) is a program that focuses on homeopathic principles and treatments.",
-  "duration": "5 years",
-  "future_job_opportunities": "Homeopathic practitioner, research, teaching, healthcare management, wellness consultant",
-  "aspiring_students": "Students interested in holistic healing through homeopathy"
-  },
-  "BNYS": {
-  "description": "BNYS (Bachelor of Naturopathy and Yogic Sciences) is a program that combines naturopathic medicine and yoga therapy.",
-  "duration": "5 years",
-  "future_job_opportunities": "Naturopathic practitioner, wellness consultant, research, teaching, healthcare management",
-  "aspiring_students": "Students passionate about promoting natural healing and holistic wellness"
-  },
-  "VETERINARY": {
-  "description": "Veterinary courses train students in animal healthcare, surgery, and disease prevention.",
-  "duration": "5 years",
-  "future_job_opportunities": "Veterinarian in clinics, animal hospitals, research facilities, wildlife conservation, pharmaceutical companies",
-  "aspiring_students": "Students with a deep love for animals and a desire to excel in veterinary medicine"
-  }
-  },
-
-  "Allied Health Science Courses": {
-  "BPT/MPT": {
-  "description": "BPT (Bachelor of Physiotherapy) and MPT (Master of Physiotherapy) are programs that train students in the assessment, treatment, and management of various physical ailments.",
-  "duration": "4.5 years for BPT, 2 years for MPT",
-  "future_job_opportunities": "Physiotherapist in hospitals, clinics, sports teams, rehabilitation centers, research institutions",
-  "aspiring_students": "Students passionate about helping people regain mobility and improve their quality of life"
-  },
-  "BSC/MSC Cardiac Care": {
-  "description": "BSC (Bachelor of Science) in Cardiac Care is a program that focuses on the diagnosis, treatment, and management of cardiac diseases.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Cardiac care specialist in hospitals, clinics, research facilities, rehabilitation centers",
-  "aspiring_students": "Students interested in making a difference in the lives of cardiac patients"
-  },
-  "BSC/MSC Cardiac Vascular": {
-  "description": "BSC (Bachelor of Science) in Cardiac Vascular is a program that educates students in the diagnosis, treatment, and management of vascular diseases.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Cardiac vascular specialist in hospitals, clinics, research facilities, rehabilitation centers",
-  "aspiring_students": "Students passionate about understanding and treating vascular diseases"
-  },
-  "BSC/MSC Cardiac Perfusion": {
-  "description": "BSC (Bachelor of Science) in Cardiac Perfusion is a program that focuses on the management of blood circulation during surgeries and procedures.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Cardiac perfusionist in hospitals, clinics, research facilities",
-  "aspiring_students": "Students with a strong interest in cardiac perfusion and its role in patient care"
-  },
-  "BSC/MSC Radiology": {
-  "description": "BSC (Bachelor of Science) in Radiology is a program that educates students in the use of medical imaging to diagnose and treat various health conditions.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Radiology technologist in hospitals, clinics, research facilities",
-  "aspiring_students": "Students curious about the role of medical imaging in healthcare"
-  },
-  "BSC/MSC OT&AT": {
-  "description": "BSC (Bachelor of Science) in Occupational Therapy and Assistive Technology is a program that focuses on helping patients regain independence and improve their quality of life.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Occupational therapist or assistive technology specialist in hospitals, clinics, schools, rehabilitation centers",
-  "aspiring_students": "Students passionate about helping patients achieve their goals and live fulfilling lives"
-  },
-  "BSC/MSC Renal Dialysis": {
-  "description": "BSC (Bachelor of Science) in Renal Dialysis is a program that educates students in the treatment of kidney diseases and dialysis procedures.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Renal dialysis technician in hospitals, clinics, research facilities",
-  "aspiring_students": "Students interested in understanding and treating kidney diseases"
-  },
-  "BSC/MSC MLT": {
-  "description": "BSC (Bachelor of Science) in Medical Laboratory Technology is a program that focuses on the diagnosis of diseases through laboratory testing.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Medical laboratory technologist in hospitals, clinics, research facilities",
-  "aspiring_students": "Students fascinated by the role of laboratory testing in diagnosing diseases"
-  },
-  "BSC/MSC Respiratory Care": {
-  "description": "BSC (Bachelor of Science) in Respiratory Care is a program that educates students in the diagnosis and treatment of respiratory diseases.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Respiratory care specialist in hospitals, clinics, research facilities",
-  "aspiring_students": "Students passionate about understanding and treating respiratory diseases"
-  },
-  "BSC/MSC Optometry": {
-  "description": "BSC (Bachelor of Science) in Optometry is a program that focuses on the diagnosis and treatment of eye diseases.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Optometrist in hospitals, clinics, private practice",
-  "aspiring_students": "Students interested in understanding and treating eye diseases"
-  },
-  "BSC/MSC Neurology": {
-  "description": "BSC (Bachelor of Science) in Neurology is a program that educates students in the diagnosis and treatment of neurological disorders.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Neurology technician in hospitals, clinics, research facilities",
-  "aspiring_students": "Students passionate about understanding and treating neurological disorders"
-  },
-  "BSC/MSC Food Technology": {
-  "description": "BSC (Bachelor of Science) in Food Technology is a program that focuses on the science and technology of food processing.",
-  "duration": "3 years for BSC",
-  "future_job_opportunities": "Food technologist in food processing industries, research institutions, government agencies",
-  "aspiring_students": "Students curious about the science behind food processing and production"
-  },
-  "BSC/MSC Food & Nutrition": {
-  "description": "BSC (Bachelor of Science) in Food & Nutrition is a program that educates students in the science of food and its role in maintaining health.",
-  "duration": "3 years for BSC",
-  "futurejob_opportunities": "Nutritionist, dietitian in hospitals, clinics, wellness centers, food industry",
-  "aspiring_students": "Students passionate about promoting healthy eating habits and improving people's well-being"
-  }
-  },
-  
-    "Pharmacy Courses": {
-    "PHARM.D": {
-    "description": "PHARM.D (Doctor of Pharmacy) is a professional doctoral program that prepares students for a career as a pharmacist, focusing on patient care and medication management.",
-    "duration": "6 years",
-    "future_job_opportunities": "Pharmacist in hospitals, community pharmacies, pharmaceutical industry, research institutions",
-    "aspiring_students": "Students dedicated to providing quality healthcare through medication management"
-    },
-    "B PHARM": {
-    "description": "B PHARM (Bachelor of Pharmacy) is an undergraduate program that educates students in the science and practice of pharmacy.",
-    "duration": "4 years",
-    "future_job_opportunities": "Pharmacist in community pharmacies, hospitals, drug regulatory agencies, pharmaceutical companies",
-    "aspiring_students": "Students interested in the pharmaceutical industry and medication dispensing"
-    },
-    "M PHARM": {
-    "description": "M PHARM (Master of Pharmacy) is a postgraduate program that offers specialization in various pharmacy disciplines.",
-    "duration": "2 years",
-    "future_job_opportunities": "Clinical pharmacist, research scientist, pharmaceutical consultant, academician",
-    "aspiring_students": "Students looking to advance their knowledge and skills in specific areas of pharmacy"
-    },
-    "D PHARM": {
-    "description": "D PHARM (Diploma in Pharmacy) is a diploma program that trains students in pharmacy practice and healthcare.",
-    "duration": "2 years",
-    "future_job_opportunities": "Pharmacy technician, assistant pharmacist in pharmacies, hospitals, healthcare facilities",
-    "aspiring_students": "Students seeking a quicker entry into the field of pharmacy"
+    "image": "medical-courses.jpg",
+    "courses": {
+      "MBBS/MD/MS": {
+        "description": "MBBS (Bachelor of Medicine, Bachelor of Surgery) is a five-year undergraduate program that trains students to become medical practitioners. MD/MS are postgraduate degrees that offer specialization in various medical fields.",
+        "duration": "5 years for MBBS, 3 years for MD/MS",
+        "future_job_opportunities": "Medical practitioner, specialization in fields like cardiology, neurology, gastroenterology, opportunities in hospitals, clinics, private practice",
+        "aspiring_students": "Students aspiring to become doctors and specialize in medical fields",
+        "image": "mbbs-md-ms.jpg"
+      },
+      "BDS/MDS": {
+        "description": "BDS (Bachelor of Dental Surgery) is a five-year undergraduate program focusing on dental sciences. MDS offers postgraduate specialization in dentistry.",
+        "duration": "5 years for BDS",
+        "future_job_opportunities": "Dental practitioner in private clinics, hospitals, government healthcare facilities, opportunities in dental research, lecturing, specialized fields",
+        "aspiring_students": "Students passionate about pursuing a rewarding career in dentistry",
+        "image": "bds-mds.jpg"
+      },
+      "BAMS": {
+        "description": "BAMS (Bachelor of Ayurvedic Medicine and Surgery) is a program that educates students in Ayurvedic principles and practices.",
+        "duration": "5 years",
+        "future_job_opportunities": "Ayurvedic practitioner, research, teaching, healthcare management, wellness consultant",
+        "aspiring_students": "Students enthusiastic about embracing the ancient wisdom of Ayurveda",
+        "image": "bams.jpg"
+      },
+      "BHMS": {
+        "description": "BHMS (Bachelor of Homeopathic Medicine and Surgery) is a program that focuses on homeopathic principles and treatments.",
+        "duration": "5 years",
+        "future_job_opportunities": "Homeopathic practitioner, research, teaching, healthcare management, wellness consultant",
+        "aspiring_students": "Students interested in holistic healing through homeopathy",
+        "image": "bhms.jpg"
+      },
+      "BNYS": {
+        "description": "BNYS (Bachelor of Naturopathy and Yogic Sciences) is a program that combines naturopathic medicine and yoga therapy.",
+        "duration": "5 years",
+        "future_job_opportunities": "Naturopathic practitioner, wellness consultant, research, teaching, healthcare management",
+        "aspiring_students": "Students passionate about promoting natural healing and holistic wellness",
+        "image": "bnys.jpg"
+      },
+      "VETERINARY": {
+        "description": "Veterinary courses train students in animal healthcare, surgery, and disease prevention.",
+        "duration": "5 years",
+        "future_job_opportunities": "Veterinarian in clinics, animal hospitals, research facilities, wildlife conservation, pharmaceutical companies",
+        "aspiring_students": "Students with a deep love for animals and a desire to excel in veterinary medicine",
+        "image": "veterinary.jpg"
+      }
     }
-    },
-      "Nursing Courses": {
+  },
+  "Allied Health Science Courses": {
+    "image": "allied-health-science-courses.jpg",
+    "courses": {
+      "BPT/MPT": {
+        "description": "BPT (Bachelor of Physiotherapy) and MPT (Master of Physiotherapy) are programs that train students in the assessment, treatment, and management of various physical ailments.",
+        "duration": "4.5 years for BPT, 2 years for MPT",
+        "future_job_opportunities": "Physiotherapist in hospitals, clinics, sports teams, rehabilitation centers, research institutions",
+        "aspiring_students": "Students passionate about helping people regain mobility and improve their quality of life",
+        "image": "bpt-mpt.jpg"
+      },
+      "BSC/MSC Cardiac Care": {
+        "description": "BSC (Bachelor of Science) in Cardiac Care is a program that focuses on the diagnosis, treatment, and management of cardiac diseases.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Cardiac care specialist in hospitals, clinics, research facilities, rehabilitation centers",
+        "aspiring_students": "Students interested in making a difference in the lives of cardiac patients",
+        "image": "bsc-msc-cardiac-care.jpg"
+      },
+      "BSC/MSC Cardiac Vascular": {
+        "description": "BSC (Bachelor of Science) in Cardiac Vascular is a program that educates students in the diagnosis, treatment, and management of vascular diseases.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Cardiac vascular specialist in hospitals, clinics, research facilities, rehabilitation centers",
+        "aspiring_students": "Students passionate about understanding and treating vascular diseases",
+        "image": "bsc-msc-cardiac-vascular.jpg"
+      },
+      "BSC/MSC Cardiac Perfusion": {
+        "description": "BSC (Bachelor of Science) in Cardiac Perfusion is a program that focuses on the management of blood circulation during surgeries and procedures.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Cardiac perfusionist in hospitals, clinics, research facilities",
+        "aspiring_students": "Students with a strong interest in cardiac perfusion and its role in patient care",
+        "image": "bsc-msc-cardiac-perfusion.jpg"
+      },
+      "BSC/MSC Radiology": {
+        "description": "BSC (Bachelor of Science) in Radiology is a program that educates students in the use of medical imaging to diagnose and treat various health conditions.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Radiology technologist in hospitals, clinics, research facilities",
+        "aspiring_students": "Students curious about the role of medical imaging in healthcare",
+        "image": "bsc-msc-radiology.jpg"
+      },
+      "BSC/MSC OT&AT": {
+        "description": "BSC (Bachelor of Science) in Occupational Therapy and Assistive Technology is a program that focuses on helping patients regain independence and improve their quality of life.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Occupational therapist or assistive technology specialist in hospitals, clinics, schools, rehabilitation centers",
+        "aspiring_students": "Students passionate about helping patients achieve their goals and live fulfilling lives",
+        "image": "bsc-msc-ot-at.jpg"
+      },
+      "BSC/MSC Renal Dialysis": {
+        "description": "BSC (Bachelor of Science) in Renal Dialysis is a program that educates students in the treatment of kidney diseases and dialysis procedures.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Renal dialysis technician in hospitals, clinics, research facilities",
+        "aspiring_students": "Students interested in understanding and treating kidney diseases",
+        "image": "bsc-msc-renal-dialysis.jpg"
+      },
+      "BSC/MSC MLT": {
+        "description": "BSC (Bachelor of Science) in Medical Laboratory Technology is a program that focuses on the diagnosis of diseases through laboratory testing.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Medical laboratory technologist in hospitals, clinics, research facilities",
+        "aspiring_students": "Students fascinated by the role of laboratory testing in diagnosing diseases",
+        "image": "bsc-msc-mlt.jpg"
+      },
+      "BSC/MSC Respiratory Care": {
+        "description": "BSC (Bachelor of Science) in Respiratory Care is a program that educates students in the diagnosis and treatment of respiratory diseases.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Respiratory care specialist in hospitals, clinics, research facilities",
+        "aspiring_students": "Students passionate about understanding and treating respiratory diseases",
+        "image": "bsc-msc-respiratory-care.jpg"
+      },
+      "BSC/MSC Optometry": {
+        "description": "BSC (Bachelor of Science) in Optometry is a program that focuses on the diagnosis and treatment of eye diseases.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Optometrist in hospitals, clinics, private practice",
+        "aspiring_students": "Students interested in understanding and treating eye diseases",
+        "image": "bsc-msc-optometry.jpg"
+      },
+      "BSC/MSC Neurology": {
+        "description": "BSC (Bachelor of Science) in Neurology is a program that educates students in the diagnosis and treatment of neurological disorders.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Neurology technician in hospitals, clinics, research facilities",
+        "aspiring_students": "Students passionate about understanding and treating neurological disorders",
+        "image": "bsc-msc-neurology.jpg"
+      },
+      "BSC/MSC Food Technology": {
+        "description": "BSC (Bachelor of Science) in Food Technology is a program that focuses on the science and technology of food processing.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Food technologist in food processing industries, research institutions, government agencies",
+        "aspiring_students": "Students curious about the science behind food processing and production",
+        "image": "bsc-msc-food-technology.jpg"
+      },
+      "BSC/MSC Food & Nutrition": {
+        "description": "BSC (Bachelor of Science) in Food & Nutrition is a program that educates students in the science of food and its role in maintaining health.",
+        "duration": "3 years for BSC",
+        "future_job_opportunities": "Nutritionist, dietitian in hospitals, clinics, wellness centers, food industry",
+        "aspiring_students": "Students passionate about promoting healthy eating habits and improving people's well-being",
+        "image": "bsc-msc-food-nutrition.jpg"
+      }
+    }
+  },
+  "Pharmacy Courses": {
+    "image": "pharmacy-courses.jpg",
+    "courses": {
+      "PHARM.D": {
+        "description": "PHARM.D (Doctor of Pharmacy) is a professional doctoral program that prepares students for a career as a pharmacist, focusing on patient care and medication management.",
+        "duration": "6 years",
+        "future_job_opportunities": "Pharmacist in hospitals, community pharmacies, pharmaceutical industry, research institutions",
+        "aspiring_students": "Students dedicated to providing quality healthcare through medication management",
+        "image": "pharm-d.jpg"
+      },
+      "B PHARM": {
+        "description": "B PHARM (Bachelor of Pharmacy) is an undergraduate program that educates students in the science and practice of pharmacy.",
+        "duration": "4 years",
+        "future_job_opportunities": "Pharmacist in community pharmacies, hospitals, drug regulatory agencies, pharmaceutical companies",
+        "aspiring_students": "Students interested in the pharmaceutical industry and medication dispensing",
+        "image": "b-pharm.jpg"
+      },
+      "M PHARM": {
+        "description": "M PHARM (Master of Pharmacy) is a postgraduate program that offers specialization in various pharmacy disciplines.",
+        "duration": "2 years",
+        "future_job_opportunities": "Clinical pharmacist, research scientist, pharmaceutical consultant, academician",
+        "aspiring_students": "Students looking to advance their knowledge and skills in specific areas of pharmacy",
+        "image": "m-pharm.jpg"
+      },
+      "D PHARM": {
+        "description": "D PHARM (Diploma in Pharmacy) is a diploma program that trains students in pharmacy practice and healthcare.",
+        "duration": "2 years",
+        "future_job_opportunities": "Pharmacy technician, assistant pharmacist in pharmacies, hospitals, healthcare facilities",
+        "aspiring_students": "Students seeking a quicker entry into the field of pharmacy",
+        "image": "d-pharm.jpg"
+      }
+    }
+  },
+  "Nursing Courses": {
+    "image": "nursing-courses.jpg",
+    "courses": {
       "BSC NURSING": {
-      "description": "BSC NURSING (Bachelor of Science in Nursing) is an undergraduate program that prepares students for a career as a registered nurse, focusing on patient care, health promotion, and disease prevention.",
-      "duration": "4 years",
-      "future_job_opportunities": "Registered nurse in hospitals, clinics, nursing homes, community health centers, research institutions",
-      "aspiring_students": "Students dedicated to providing quality healthcare and making a difference in people's lives"
+        "description": "BSC NURSING (Bachelor of Science in Nursing) is an undergraduate program that prepares students for a career as a registered nurse, focusing on patient care, health promotion, and disease prevention.",
+        "duration": "4 years",
+        "future_job_opportunities": "Registered nurse in hospitals, clinics, nursing homes, community health centers, research institutions",
+        "aspiring_students": "Students dedicated to providing quality healthcare and making a difference in people's lives",
+        "image": "bsc-nursing.jpg"
       },
       "MSC NURSING": {
-      "description": "MSC NURSING (Master of Science in Nursing) is a postgraduate program that offers specialization in various nursing disciplines.",
-      "duration": "2 years",
-      "future_job_opportunities": "Clinical nurse specialist, nurse practitioner, nurse educator, researcher",
-      "aspiring_students": "Students looking to advance their knowledge and skills in specific areas of nursing"
+        "description": "MSC NURSING (Master of Science in Nursing) is a postgraduate program that offers specialization in various nursing disciplines.",
+        "duration": "2 years",
+        "future_job_opportunities": "Clinical nurse specialist, nurse practitioner, nurse educator, researcher",
+        "aspiring_students": "Students looking to advance their knowledge and skills in specific areas of nursing",
+        "image": "msc-nursing.jpg"
       },
       "GNM": {
-      "description": "GNM (General Nursing and Midwifery) is a diploma program that trains students in nursing practice and midwifery.",
-      "duration": "3.5 years",
-      "future_job_opportunities": "Staff nurse, midwife in hospitals, nursing homes, community health centers, clinics",
-      "aspiring_students": "Students seeking a quicker entry into the field of nursing"
+        "description": "GNM (General Nursing and Midwifery) is a diploma program that trains students in nursing practice and midwifery.",
+        "duration": "3.5 years",
+        "future_job_opportunities": "Staff nurse, midwife in hospitals, nursing homes, community health centers, clinics",
+        "aspiring_students": "Students seeking a quicker entry into the field of nursing",
+        "image": "gnm.jpg"
       },
       "PBBSC": {
-      "description": "PBBSC (Post Basic B.Sc. Nursing) is a postgraduate program for registered nurses who want to upgrade their qualifications.",
-      "duration": "2 years",
-      "future_job_opportunities": "Advanced nursing positions in hospitals, clinics, nursing homes, research institutions, academia",
-      "aspiring_students": "Registered nurses seeking to advance their career and improve their nursing skills"
+        "description": "PBBSC (Post Basic B.Sc. Nursing) is a postgraduate program for registered nurses who want to upgrade their qualifications.",
+        "duration": "2 years",
+        "future_job_opportunities": "Advanced nursing positions in hospitals, clinics, nursing homes, research institutions, academia",
+        "aspiring_students": "Registered nurses seeking to advance their career and improve their nursing skills",
+        "image": "pbbsc.jpg"
       }
-      },
-      "PG Courses": {
-        "MBA": {
+    }
+  },
+  "PG Courses": {
+    "image": "pg-courses.jpg",
+    "courses": {
+      "MBA": {
         "description": "MBA (Master of Business Administration) is a postgraduate program that focuses on business management and administration.",
         "duration": "2 years",
         "future_job_opportunities": "Business manager, consultant, entrepreneur, project manager, marketing executive",
-        "aspiring_students": "Students aiming for leadership roles in the business world"
-        },
-        "MCA": {
+        "aspiring_students": "Students aiming for leadership roles in the business world",
+        "image": "mba.jpg"
+      },
+      "MCA": {
         "description": "MCA (Master of Computer Applications) is a postgraduate program that educates students in computer science and applications.",
         "duration": "3 years",
         "future_job_opportunities": "Software developer, systems analyst, database administrator, IT consultant",
-        "aspiring_students": "Students interested in a career in software development and IT"
-        },
-        "MSW": {
+        "aspiring_students": "Students interested in a career in software development and IT",
+        "image": "mca.jpg"
+      },
+      "MSW": {
         "description": "MSW (Master of Social Work) is a postgraduate program that focuses on social welfare, community development, and social justice.",
         "duration": "2 years",
         "future_job_opportunities": "Social worker, counselor, community organizer, policy analyst, human services manager",
-        "aspiring_students": "Students passionate about making a positive impact on society"
-        },
-        "MA": {
+        "aspiring_students": "Students passionate about making a positive impact on society",
+        "image": "msw.jpg"
+      },
+      "MA": {
         "description": "MA (Master of Arts) is a postgraduate program that offers specialization in various arts and humanities disciplines.",
         "duration": "2 years",
         "future_job_opportunities": "Educator, researcher, writer, journalist, content creator",
-        "aspiring_students": "Students interested in pursuing advanced studies in arts and humanities"
-        },
-        "MHA": {
+        "aspiring_students": "Students interested in pursuing advanced studies in arts and humanities",
+        "image": "ma.jpg"
+      },
+      "MHA": {
         "description": "MHA (Master of Health Administration) is a postgraduate program that focuses on healthcare management and administration.",
         "duration": "2 years",
         "future_job_opportunities": "Healthcare administrator, hospital manager, healthcare consultant, health services manager",
-        "aspiring_students": "Students aiming for leadership roles in the healthcare industry"
+        "aspiring_students": "Students aiming for leadership roles in the healthcare industry",
+        "image": "mha.jpg"
         },
         "MCOM": {
         "description": "MCOM (Master of Commerce) is a postgraduate program that educates students in commerce, accounting, and finance.",
         "duration": "2 years",
         "future_job_opportunities": "Accountant, financial analyst, auditor, tax consultant, investment banker",
-        "aspiring_students": "Students interested in pursuing careers in finance and accounting"
+        "aspiring_students": "Students interested in pursuing careers in finance and accounting",
+        "image": "mcom.jpg"
         },
         "MSC": {
         "description": "MSC (Master of Science) is a postgraduate program that offers specialization in various science disciplines.",
         "duration": "2 years",
         "future_job_opportunities": "Research scientist, laboratory manager, data analyst, science educator",
-        "aspiring_students": "Students looking to advance their knowledge and skills in specific areas of science"
+        "aspiring_students": "Students looking to advance their knowledge and skills in specific areas of science",
+        "image": "msc.jpg"
+        }
         }
         },
-          "Engineering Courses": {
-          "COMPUTER SCIENCE": {
-          "description": "Computer Science is a field of engineering that deals with the design, development, and application of software and computer systems.",
-          "duration": "4 years",
-          "future_job_opportunities": "Software developer, systems analyst, database administrator, IT consultant",
-          "aspiring_students": "Students interested in a career in software development and IT"
-          },
-          "ARTIFICIAL INTELLIGENCE": {
-          "description": "Artificial Intelligence is a branch of computer science that focuses on creating intelligent machines that can think and learn like humans.",
-          "duration": "4 years",
-          "future_job_opportunities": "AI researcher, developer, data scientist, machine learning engineer",
-          "aspiring_students": "Students fascinated by the potential of AI and its applications"
-          },
-          "ROBOTICS": {
-          "description": "Robotics is a field of engineering that deals with the design, construction, and operation of robots.",
-          "duration": "4 years",
-          "future_job_opportunities": "Robotics engineer, robotics technician, robotics researcher",
-          "aspiring_students": "Students interested in the design and construction of robots"
-          },
-          "INTERNET OF THINGS": {
-          "description": "Internet of Things (IoT) is a field of engineering that focuses on connecting everyday objects to the internet and each other.",
-          "duration": "4 years",
-          "future_job_opportunities": "IoT engineer, IoT developer, IoT data analyst",
-          "aspiring_students": "Students interested in the future of connected devices and smart homes"
-          },
-          "CYBER SECURITY": {
-          "description": "Cyber Security is a field of engineering that deals with protecting computer systems, networks, and data from unauthorized access and attack.",
-          "duration": "4 years",
-          "future_job_opportunities": "Cyber security analyst, cyber security engineer, cyber security consultant",
-          "aspiring_students": "Students concerned about the security of digital systems and data"
-          },
-          "DATA SCIENCE": {
-          "description": "Data Science is a field of engineering that deals with extracting insights from large datasets.",
-          "duration": "4 years",
-          "future_job_opportunities": "Data scientist, data analyst, data engineer",
-          "aspiring_students": "Students interested in the analysis of large datasets and their applications"
-          },
-          "INFORMATION TECHNOLOGY": {
-          "description": "Information Technology (IT) is a field of engineering that deals with the use of computers and technology to manage and process information.",
-          "duration": "4 years",
-          "future_job_opportunities": "IT consultant, IT project manager, IT support specialist",
-          "aspiring_students": "Students interested in the use of technology to manage and process information"
-          },
-          "MACHINE LEARNING": {
-          "description": "Machine Learning is a subfield of artificial intelligence that focuses on developing algorithms that can learn from data and improve their performance over time.",
-          "duration": "4 years",
-          "future_job_opportunities": "Machine learning engineer, machine learning researcher, machine learning developer",
-          "aspiring_students": "Students interested in the development of algorithms that can learn from data"
-          },
-          "MECHANICAL": {
-          "description": "Mechanical Engineering is a field of engineering that deals with the design, construction, and operation of mechanical systems.",
-          "duration": "4 years",
-          "future_job_opportunities": "Mechanical engineer, mechanical designer, mechanical technician",
-          "aspiring_students": "Students interested in the design and operation of mechanical systems"
-          },
-          "CIVIL": {
-          "description": "Civil Engineering is a field of engineering that deals with the design and construction of infrastructure such as roads, bridges, and buildings.",
-          "duration": "4 years",
-          "future_job_opportunities": "Civil engineer, civil designer, civil technician",
-          "aspiring_students": "Students interested in the design and construction of infrastructure"
-          },
-          "EEE": {
-          "description": "Electrical and Electronics Engineering (EEE) is a field of engineering that deals with the design, development, and application of electrical and electronic systems.",
-          "duration": "4 years",
-          "future_job_opportunities": "Electrical engineer, electronics engineer, electrical designer",
-          "aspiring_students": "Students interested in the design and application of electrical and electronic systems"
-          },
-          "ECE": {
-          "description": "Electronics and Communication Engineering (ECE) is a field of engineering that deals with the design, development, and application of electronic systems and communication networks.",
-          "duration": "4 years",
-          "future_job_opportunities": "Electronics engineer, communication engineer, electronics designer",
-          "aspiring_students": "Students interested in the design and application of electronic systems and communication networks"
-          },
-          "CHEMICAL ENGINEERING": {
-          "description": "Chemical Engineering is a field of engineering that deals with the design, development, and application of chemical processes and systems.",
-          "duration": "4 years",
-          "future_job_opportunities": "Chemical engineer, chemical process engineer, chemical designer",
-          "aspiring_students": "Students interested in the design and application of chemical processes and systems"
-          },
-          "AERONAUTICAL": {
-          "description": "Aeronautical Engineering is a field of engineering that deals with the design, construction, and operation of aircraft.",
-          "duration": "4 years",
-          "future_job_opportunities": "Aeronautical engineer, aeronautical designer, aeronautical technician",
-          "aspiring_students": "Students interested in the design and operation of aircraft"
-          },
-          "MECHATRONICS": {
-          "description": "Mechatronics is a field of engineering that combines mechanical, electrical, and computer engineering to design and develop intelligent systems.",
-          "duration": "4 years",
-          "future_job_opportunities": "Mechatronics engineer, mechatronics designer, robotics engineer",
-          "aspiring_students": "Students interested in integrating mechanical, electrical, and computer systems"
-          },
-          "PETROLEUM": {
-          "description": "Petroleum Engineering is a field of engineering that deals with the exploration, extraction, and production of oil and gas.",
-          "duration": "4 years",
-          "future_job_opportunities": "Petroleum engineer, drilling engineer, reservoir engineer",
-          "aspiring_students": "Students interested in the energy industry and oil/gas exploration"
-          },
-          "AGRICULTURE": {
-          "description": "Agricultural Engineering is a field of engineering that applies engineering principles to agricultural production and processing.",
-          "duration": "4 years",
-          "future_job_opportunities": "Agricultural engineer, farm equipment designer, food processing engineer",
-          "aspiring_students": "Students passionate about improving agricultural practices and food production"
-          },
-          "ARCHITECTURE": {
-          "description": "Architecture is a field of engineering that focuses on the design and construction of buildings and structures.",
-          "duration": "5 years",
-          "future_job_opportunities": "Architect, urban planner, interior designer, landscape architect",
-          "aspiring_students": "Students interested in creating functional and aesthetically pleasing spaces"
-          }
-          },
-          "Management Courses": {
-            "BBA": {
-            "description": "BBA (Bachelor of Business Administration) is an undergraduate program that provides a broad understanding of business operations and management principles.",
-            "duration": "3 years",
-            "future_job_opportunities": "Management trainee, marketing executive, financial analyst, operations manager",
-            "aspiring_students": "Students interested in business administration and management"
-            },
-            "BBA AVIATION": {
-            "description": "BBA Aviation is a specialized undergraduate program that focuses on the management of aviation industry operations.",
-            "duration": "3 years",
-            "future_job_opportunities": "Aviation manager, airline operations manager, airport manager",
-            "aspiring_students": "Students interested in the aviation industry and its management"
-            },
-            "BBA LOGISTICS": {
-            "description": "BBA Logistics is a specialized undergraduate program that focuses on the management of supply chain and logistics operations.",
-            "duration": "3 years",
-            "future_job_opportunities": "Logistics manager, supply chain manager, inventory manager",
-            "aspiring_students": "Students interested in the logistics and supply chain management"
-            },
-            "BBA BUSINESS ANALYTICS": {
-            "description": "BBA Business Analytics is an undergraduate program that focuses on the application of data analysis and business intelligence tools.",
-            "duration": "3 years",
-            "future_job_opportunities": "Business analyst, data analyst, marketing analyst",
-            "aspiring_students": "Students interested in using data to drive business decisions"
-            },
-            "BBA SPORTS MANAGEMENT": {
-            "description": "BBA Sports Management is a specialized undergraduate program that focuses on the management of sports organizations and events.",
-            "duration": "3 years",
-            "future_job_opportunities": "Sports manager, event manager, sports marketing executive",
-            "aspiring_students": "Students passionate about sports and its management"
-            },
-            "BBA ADVANCE": {
-            "description": "BBA Advanced is an undergraduate program that offers specialized courses in various areas of business management.",
-            "duration": "3 years",
-            "future_job_opportunities": "Management trainee, marketing executive, financial analyst, operations manager",
-            "aspiring_students": "Students seeking a comprehensive business management education"
-            },
-            "BBA DIGITAL MARKETING": {
-            "description": "BBA Digital Marketing is a specialized undergraduate program that focuses on the use of digital channels for marketing and advertising.",
-            "duration": "3 years",
-            "future_job_opportunities": "Digital marketing manager, social media manager, content marketer",
-            "aspiring_students": "Students interested in digital marketing and its applications"
-            },
-            "B.COM ACCA": {
-            "description": "B.Com ACCA (Association of Chartered Certified Accountants) is an undergraduate program that provides a comprehensive education in accounting and finance.",
-            "duration": "3 years",
-            "future_job_opportunities": "Chartered accountant, financial analyst, management accountant",
-            "aspiring_students": "Students interested in accounting and finance"
-            },
-            "B.COM CMA": {
-            "description": "B.Com CMA (Certified Management Accountant) is an undergraduate program that focuses on financial management and strategic decision-making.",
-            "duration": "3 years",
-            "future_job_opportunities": "Management accountant, financial analyst, cost accountant",
-            "aspiring_students": "Students interested in financial management and strategic decision-making"
-            },
-            "B.COM LOGISTICS": {
-            "description": "B.Com Logistics is an undergraduate program that focuses on the management of supply chain and logistics operations.",
-            "duration": "3 years",
-            "future_job_opportunities": "Logistics manager, supply chain manager, inventory manager",
-            "aspiring_students": "Students interested in the logistics and supply chain management"
-            },
-            "BCA ARTIFICIAL INTELLIGENCE": {
-            "description": "BCA Artificial Intelligence is an undergraduate program that focuses on the development of intelligent computer systems.",
-            "duration": "3 years",
-            "future_job_opportunities": "AI developer, AI researcher, AI consultant",
-            "aspiring_students": "Students interested in artificial intelligence and its applications"
-            },
-            "BCA CLOUD COMPUTING": {
-            "description": "BCA Cloud Computing is an undergraduate program that focuses on the use of cloud computing technologies and services.",
-            "duration": "3 years",
-            "future_job_opportunities": "Cloud computing engineer, cloud architect, cloud solutions architect",
-            "aspiring_students": "Students interested in cloud computing and its applications"
-            },
-            "BCA CYBER SECURITY": {
-            "description": "BCA Cyber Security is an undergraduate program that focuses on the protection of digital systems and networks.",
-            "duration": "3 years",
-            "future_job_opportunities": "Cyber security analyst, cyber security engineer, cyber security consultant",
-            "aspiring_students": "Students interested in cyber security and its applications"
-            },
-            "BCA ETHICAL HACKING": {
-            "description": "BCA Ethical Hacking is an undergraduate program that focuses on the use of ethical hacking techniques for security testing.",
-            "duration": "3 years",
-            "future_job_opportunities": "Ethical hacker, security analyst, penetration tester",
-            "aspiring_students": "Students interested in ethical hacking and its applications"
-            },
-            "BCA IOT": {
-            "description": "BCA IoT (Internet of Things) is an undergraduate program that focuses on the development of smart devices and systems.",
-            "duration": "3 years",
-            "future_job_opportunities": "IoT developer, IoT architect, IoT solutions architect",
-            "aspiring_students": "Students interested in the Internet of Things and its applications"
-            },
-            "BCA ROBOTICS": {
-              "description": "BCA Robotics is an undergraduate program that focuses on the design, development, and operation of robotic systems.",
-              "duration": "3 years",
-              "future_job_opportunities": "Robotics engineer, robotics technician, automation specialist",
-              "aspiring_students": "Students interested in the field of robotics and automation"
-              },
-              "BCA MACHINE LEARNING": {
-              "description": "BCA Machine Learning is an undergraduate program that focuses on the development of algorithms that can learn from and make predictions based on data.",
-              "duration": "3 years",
-              "future_job_opportunities": "Machine learning engineer, data scientist, AI specialist",
-              "aspiring_students": "Students interested in the field of machine learning and artificial intelligence"
-              },
-              "BCA DIGITAL MARKETING": {
-              "description": "BCA Digital Marketing is an undergraduate program that focuses on the use of digital channels for marketing and advertising.",
-              "duration": "3 years",
-              "future_job_opportunities": "Digital marketing manager, social media manager, SEO specialist",
-              "aspiring_students": "Students interested in digital marketing and online advertising"
-              },
-              "BVA": {
-              "description": "BVA (Bachelor of Visual Arts) is an undergraduate program that focuses on the study and practice of visual arts.",
-              "duration": "4 years",
-              "future_job_opportunities": "Artist, art director, graphic designer, illustrator",
-              "aspiring_students": "Students passionate about visual arts and creative expression"
-              }
-              },
-              "Law Courses": {
-                "BA LLB": {
-                "description": "BA LLB (Bachelor of Arts and Bachelor of Laws) is an undergraduate program that provides a comprehensive education in both arts and law.",
-                "duration": "5 years",
-                "future_job_opportunities": "Lawyer, legal consultant, legal advisor, legal researcher",
-                "aspiring_students": "Students interested in pursuing a career in law with a focus on arts subjects"
-                },
-                "BBA LLB": {
-                "description": "BBA LLB (Bachelor of Business Administration and Bachelor of Laws) is an undergraduate program that combines business management and law studies.",
-                "duration": "5 years",
-                "future_job_opportunities": "Lawyer, corporate lawyer, legal consultant, legal advisor",
-                "aspiring_students": "Students interested in pursuing a career in law with a focus on business management"
-                },
-                "LLM": {
-                "description": "LLM (Master of Laws) is a postgraduate program that offers advanced studies in various areas of law.",
-                "duration": "2 years",
-                "future_job_opportunities": "Lawyer, legal consultant, legal advisor, legal researcher",
-                "aspiring_students": "Students seeking to specialize in a specific area of law or pursue further education in law"
-                }
-                },
-                "Other Courses": {
-                  "BHM": {
-                  "description": "BHM (Bachelor of Hotel Management) is an undergraduate program that focuses on the management of hotels and other hospitality establishments.",
-                  "duration": "3 years",
-                  "future_job_opportunities": "Hotel manager, restaurant manager, event manager, travel agent",
-                  "aspiring_students": "Students interested in the hospitality industry and its management"
-                  },
-                  "BHA": {
-                  "description": "BHA (Bachelor of Hospitality Administration) is an undergraduate program that focuses on the management of various hospitality services.",
-                  "duration": "3 years",
-                  "future_job_opportunities": "Hotel manager, restaurant manager, event manager, travel agent",
-                  "aspiring_students": "Students interested in the hospitality industry and its management"
-                  },
-                  "BSW": {
-                  "description": "BSW (Bachelor of Social Work) is an undergraduate program that focuses on the practice of social work and social welfare.",
-                  "duration": "3 years",
-                  "future_job_opportunities": "Social worker, social welfare officer, community development worker",
-                  "aspiring_students": "Students interested in social work and social welfare"
-                  },
-                  "BSC/MSC BIOTECHNOLOGY/MICROBIOLOGY/BIOCHEMISTRY": {
-                  "description": "BSC/MSC Biotechnology, Microbiology, and Biochemistry are undergraduate/postgraduate programs that focus on the application of biological knowledge and techniques in various fields.",
-                  "duration": "3 years (BSC) / 2 years (MSC)",
-                  "future_job_opportunities": "Biotechnologist, microbiologist, biochemist, research scientist",
-                  "aspiring_students": "Students interested in the biological sciences and their applications"
-                  },
-                  "BSC FASHION DESIGN": {
-                  "description": "BSC Fashion Design is an undergraduate program that focuses on the design and creation of fashion garments and accessories.",
-                  "duration": "3 years",
-                  "future_job_opportunities": "Fashion designer, fashion stylist, fashion merchandiser",
-                  "aspiring_students": "Students passionate about fashion design and its applications"
-                  },
-                  "BSC/MSC FORENSIC SCIENCE": {
-                  "description": "BSC/MSC Forensic Science is an undergraduate/postgraduate program that focuses on the application of scientific methods to criminal investigations.",
-                  "duration": "3 years (BSC) / 2 years (MSC)",
-                  "future_job_opportunities": "Forensic scientist, crime scene investigator, laboratory analyst",
-                  "aspiring_students": "Students interested in forensic science and its applications"
-                  },
-                  "BSC/MSC CRIMINOLOGY": {
-                  "description": "BSC/MSC Criminology is an undergraduate/postgraduate program that focuses on the study of crime and its causes, as well as the prevention and punishment of crime.",
-                  "duration": "3 years (BSC) / 2 years (MSC)",
-                  "future_job_opportunities": "Criminologist, criminal justice analyst, law enforcement officer",
-                  "aspiring_students": "Students interested in the study of crime and its prevention and punishment"
-                  },
-                  "BSC/MSC AGRICULTURE": {
-                  "description": "BSC/MSC Agriculture are undergraduate/postgraduate programs that focus on the study of plant and animal sciences, as well as the management of agricultural systems.",
-                  "duration": "3 years (BSC) / 2 years (MSC)",
-                  "future_job_opportunities": "Agricultural scientist, farmer, agronomist, agricultural consultant",
-                  "aspiring_students": "Students interested in agriculture and its management"
-                  },
-                  "BA/MA": {
-                  "description": "BA/MA (Bachelor of Arts/Master of Arts) are undergraduate/postgraduate programs that offer advanced studies in various humanities and social sciences subjects.",
-                  "duration": "3 years (BA) / 2 years (MA)",
-                  "future_job_opportunities": "Teacher, researcher, writer, journalist, content creator",
-                  "aspiring_students": "Students interested in the humanities and social sciences"
-                  },
-                  "BSC/MSC": {
-                  "description": "BSC/MSC are undergraduate/postgraduate programs that offer advanced studies in various science subjects.",
-                  "duration": "3 years (BSC) / 2 years (MSC)",
-                  "future_job_opportunities": "Research scientist, laboratory analyst, science teacher",
-                  "aspiring_students": "Students interested in the sciences"
-                  },
-                  "BSC AGRICULTURE": {
-                  "description": "BSC Agriculture is an undergraduate program that focuses on the study of plant and animal sciences, as well as the management of agricultural systems.",
-                  "duration": "3 years",
-                  "future_job_opportunities": "Agricultural scientist, farmer, agronomist, agricultural consultant",
-                  "aspiring_students": "Students interested in agriculture and its management"
-                  },
-                  "B.ED": {
-                  "description": "B.Ed (Bachelor of Education) is an undergraduate program that focuses on the study of education and its pedagogy.",
-                  "duration": "2 years",
-                  "future_job_opportunities": "School teacher, education consultant, educational content creator",
-                  "aspiring_students": "Students interested in education and its pedagogy"
-                  },
-                  "D.ED": {
-                  "description": "D.Ed (Diploma in Education) is a diploma program that focuses on the study of education and its pedagogy.",
-                  "duration": "2 years",
-                  "future_job_opportunities": "School teacher, education consultant, educational content creator",
-                  "aspiring_students": "Students interested in education and its pedagogy"
-                  },
-                  "SHIPPING": {
-                  "description": "Shipping is a field of study that focuses on the transportation of goods by sea.",
-                  "duration": "3 years",
-                  "future_job_opportunities": "Shipping manager, logistics coordinator, maritime operations specialist",
-"aspiring_students": "Students interested in the maritime industry and logistics"
-}
-}
-}
-              
+        "Engineering Courses": {
+        "image": "engineering-courses.jpg",
+        "courses": {
+        "COMPUTER SCIENCE": {
+        "description": "Computer Science is a field of engineering that deals with the design, development, and application of software and computer systems.",
+        "duration": "4 years",
+        "future_job_opportunities": "Software developer, systems analyst, database administrator, IT consultant",
+        "aspiring_students": "Students interested in a career in software development and IT",
+        "image": "computer-science.jpg"
+        },
+        "ARTIFICIAL INTELLIGENCE": {
+        "description": "Artificial Intelligence is a branch of computer science that focuses on creating intelligent machines that can think and learn like humans.",
+        "duration": "4 years",
+        "future_job_opportunities": "AI researcher, developer, data scientist, machine learning engineer",
+        "aspiring_students": "Students fascinated by the potential of AI and its applications",
+        "image": "artificial-intelligence.jpg"
+        },
+        "ROBOTICS": {
+        "description": "Robotics is a field of engineering that deals with the design, construction, and operation of robots.",
+        "duration": "4 years",
+        "future_job_opportunities": "Robotics engineer, robotics technician, robotics researcher",
+        "aspiring_students": "Students interested in the design and construction of robots",
+        "image": "robotics.jpg"
+        },
+        "INTERNET OF THINGS": {
+        "description": "Internet of Things (IoT) is a field of engineering that focuses on connecting everyday objects to the internet and each other.",
+        "duration": "4 years",
+        "future_job_opportunities": "IoT engineer, IoT developer, IoT data analyst",
+        "aspiring_students": "Students interested in the future of connected devices and smart homes",
+        "image": "internet-of-things.jpg"
+        },
+        "CYBER SECURITY": {
+        "description": "Cyber Security is a field of engineering that deals with protecting computer systems, networks, and data from unauthorized access and attack.",
+        "duration": "4 years",
+        "future_job_opportunities": "Cyber security analyst, cyber security engineer, cyber security consultant",
+        "aspiring_students": "Students concerned about the security of digital systems and data",
+        "image": "cyber-security.jpg"
+        },
+        "DATA SCIENCE": {
+        "description": "Data Science is a field of engineering that deals with extracting insights from large datasets.",
+        "duration": "4 years",
+        "future_job_opportunities": "Data scientist, data analyst, data engineer",
+        "aspiring_students": "Students interested in the analysis of large datasets and their applications",
+        "image": "data-science.jpg"
+        },
+        "INFORMATION TECHNOLOGY": {
+        "description": "Information Technology (IT) is a field of engineering that deals with the use of computers and technology to manage and process information.",
+        "duration": "4 years",
+        "future_job_opportunities": "IT consultant, IT project manager, IT support specialist",
+        "aspiring_students": "Students interested in the use of technology to manage and process information",
+        "image": "information-technology.jpg"
+        },
+        "MACHINE LEARNING": {
+        "description": "Machine Learning is a subfield of artificial intelligence that focuses on developing algorithms that can learn from data and improve their performance over time.",
+        "duration": "4 years",
+        "future_job_opportunities": "Machine learning engineer, machine learning researcher, machine learning developer",
+        "aspiring_students": "Students interested in the development of algorithms that can learn from data",
+        "image": "machine-learning.jpg"
+        },
+        "MECHANICAL": {
+        "description": "Mechanical Engineering is a field of engineering that deals with the design, construction, and operation of mechanical systems.",
+        "duration": "4 years",
+        "future_job_opportunities": "Mechanical engineer, mechanical designer, mechanical technician",
+        "aspiring_students": "Students interested in the design and operation of mechanical systems",
+        "image": "mechanical.jpg"
+        },
+        "CIVIL": {
+        "description": "Civil Engineering is a field of engineering that deals with the design and construction of infrastructure such as roads, bridges, and buildings.",
+        "duration": "4 years",
+        "future_job_opportunities": "Civil engineer, civil designer, civil technician",
+        "aspiring_students": "Students interested in the design and construction of infrastructure",
+        "image": "civil.jpg"
+        },
+        "EEE": {
+        "description": "Electrical and Electronics Engineering (EEE) is a field of engineering that deals with the design, development, and application of electrical and electronic systems.",
+        "duration": "4 years",
+        "future_job_opportunities": "Electrical engineer, electronics engineer, electrical designer",
+        "aspiring_students": "Students interested in the design and application of electrical and electronic systems",
+        "image": "eee.jpg"
+        },
+        "ECE": {
+        "description": "Electronics and Communication Engineering (ECE) is a field of engineering that deals with the design, development, and application of electronic systems and communication networks.",
+        "duration": "4 years",
+        "future_job_opportunities": "Electronics engineer, communication engineer, electronics designer",
+        "aspiring_students": "Students interested in the design and application of electronic systems and communication networks",
+        "image": "ece.jpg"
+        },
+        "CHEMICAL ENGINEERING": {
+        "description": "Chemical Engineering is a field of engineering that deals with the design, development, and application of chemical processes and systems.",
+        "duration": "4 years",
+        "future_job_opportunities": "Chemical engineer, chemical process engineer, chemical designer",
+        "aspiring_students": "Students interested in the design and application of chemical processes and systems",
+        "image": "chemical-engineering.jpg"
+        },
+        "AERONAUTICAL": {
+        "description": "Aeronautical Engineering is a field of engineering that deals with the design, construction, and operation of aircraft.",
+        "duration": "4 years",
+        "future_job_opportunities": "Aeronautical engineer, aeronautical designer, aeronautical technician",
+        "aspiring_students": "Students interested in the design and operation of aircraft",
+        "image": "aeronautical.jpg"
+        },
+        "MECHATRONICS": {
+        "description": "Mechatronics is a field of engineering that combines mechanical, electrical, and computer engineering to design and develop intelligent systems.",
+        "duration": "4 years",
+        "future_job_opportunities": "Mechatronics engineer, mechatronics designer, robotics engineer",
+        "aspiring_students": "Students interested in integrating mechanical, electrical, and computer systems",
+        "image": "mechatronics.jpg"
+        },
+        "PETROLEUM": {
+        "description": "Petroleum Engineering is a field of engineering that deals with the exploration, extraction, and production of oil and gas.",
+        "duration": "4 years",
+        "future_job_opportunities": "Petroleum engineer, drilling engineer, reservoir engineer",
+        "aspiring_students": "Students interested in the energy industry and oil/gas exploration",
+        "image": "petroleum.jpg"
+        },
+        "AGRICULTURE": {
+        "description": "Agricultural Engineering is a field of engineering that applies engineering principles to agricultural production and processing.",
+        "duration": "4 years",
+        "future_job_opportunities": "Agricultural engineer, farm equipment designer, food processing engineer",
+        "aspiring_students": "Students passionate about improving agricultural practices and food production",
+        "image": "agriculture.jpg"
+        },
+        "ARCHITECTURE": {
+        "description": "Architecture is a field of engineering that focuses on the design and construction of buildings and structures.",
+        "duration": "5 years",
+        "future_job_opportunities": "Architect, urban planner, interior designer, landscape architect",
+        "aspiring_students": "Students interested in creating functional and aesthetically pleasing spaces",
+        "image": "architecture.jpg"
+        }
+        }
+        },
+        "Management Courses": {
+        "image": "management-courses.jpg",
+        "courses": {
+        "BBA": {
+        "description": "BBA (Bachelor of Business Administration) is an undergraduate program that provides a broad understanding of business operations and management principles.",
+        "duration": "3 years",
+        "future_job_opportunities": "Management trainee, marketing executive, financial analyst, operations manager",
+        "aspiring_students": "Students interested in business administration and management",
+        "image": "bba.jpg"
+        },
+        "BBA AVIATION": {
+        "description": "BBA Aviation is a specialized undergraduate program that focuses on the management of aviation industry operations.",
+        "duration": "3 years",
+        "future_job_opportunities": "Aviation manager, airline operations manager, airport manager",
+        "aspiring_students": "Students interested in the aviation industry and its management",
+        "image": "bba-aviation.jpg"
+        },
+        "BBA LOGISTICS": {
+        "description": "BBA Logistics is a specialized undergraduate program that focuses on the management of supply chain and logistics operations.",
+        "duration": "3 years",
+        "future_job_opportunities": "Logistics manager, supply chain manager, inventory manager",
+        "aspiring_students": "Students interested in the logistics and supply chain management",
+        "image": "bba-logistics.jpg"
+        },
+        "BBA BUSINESS ANALYTICS": {
+        "description": "BBA Business Analytics is an undergraduate program that focuses on the application of data analysis and business intelligence tools.",
+        "duration": "3 years",
+        "future_job_opportunities": "Business analyst, data analyst, marketing analyst",
+        "aspiring_students": "Students interested in using data to drive business decisions",
+        "image": "bba-business-analytics.jpg"
+        },
+        "BBA SPORTS MANAGEMENT": {
+        "description": "BBA Sports Management is a specialized undergraduate program that focuses on the management of sports organizations and events.",
+        "duration": "3 years",
+        "future_job_opportunities": "Sports manager, event manager, sports marketing executive",
+        "aspiring_students": "Students passionate about sports and its management",
+        "image": "bba-sports-management.jpg"
+        },
+        "BBA ADVANCE": {
+        "description": "BBA Advanced is an undergraduate program that offers specialized courses in various areas of business management.",
+        "duration": "3 years",
+        "future_job_opportunities": "Management trainee, marketing executive, financial analyst, operations manager",
+        "aspiring_students": "Students seeking a comprehensive business management education",
+        "image": "bba-advance.jpg"
+        },
+        "BBA DIGITAL MARKETING": {
+        "description": "BBA Digital Marketing is a specialized undergraduate program that focuses on the use of digital channels for marketing and advertising.",
+        "duration": "3 years",
+        "future_job_opportunities": "Digital marketing manager, social media manager, content marketer",
+        "aspiring_students": "Students interested in digital marketing and its applications",
+        "image": "bba-digital-marketing.jpg"
+        },
+        "B.COM ACCA": {
+        "description": "B.Com ACCA (Association of Chartered Certified Accountants) is an undergraduate program that provides a comprehensive education in accounting and finance.",
+        "duration": "3 years",
+        "future_job_opportunities": "Chartered accountant, financial analyst, management accountant",
+        "aspiring_students": "Students interested in accounting and finance",
+        "image": "bcom-acca.jpg"
+        },
+        "B.COM CMA": {
+        "description": "B.Com CMA (Certified Management Accountant) is an undergraduate program that focuses on financial management and strategic decision-making.",
+        "duration": "3 years",
+        "future_job_opportunities": "Management accountant, financial analyst, cost accountant",
+        "aspiring_students": "Students interested in financial management and strategic decision-making",
+        "image": "bcom-cma.jpg"
+        },
+        "B.COM LOGISTICS": {
+        "description": "B.Com Logistics is an undergraduate program that focuses on the management of supply chain and logistics operations.",
+        "duration": "3 years",
+        "future_job_opportunities": "Logistics manager, supply chain manager, inventory manager",
+        "aspiring_students": "Students interested in the logistics and supply chain management",
+        "image": "bcom-logistics.jpg"
+        },
+        "BCA ARTIFICIAL INTELLIGENCE": {
+        "description": "BCA Artificial Intelligence is an undergraduate program that focuses on the development of intelligent computer systems.",
+        "duration": "3 years",
+        "future_job_opportunities": "AI developer, AI researcher, AI consultant",
+        "aspiring_students": "Students interested in artificial intelligence and its applications",
+        "image": "bca-artificial-intelligence.jpg"
+        },
+        "BCA CLOUD COMPUTING": {
+        "description": "BCA Cloud Computing is an undergraduate program that focuses on the use of cloud computing technologies and services.",
+        "duration": "3 years",
+        "future_job_opportunities": "Cloud computing engineer, cloud architect, cloud solutions architect",
+        "aspiring_students": "Students interested in cloud computing and its applications",
+        "image": "bca-cloud-computing.jpg"
+        },
+        "BCA CYBER SECURITY": {
+        "description": "BCA Cyber Security is an undergraduate program that focuses on the protection of digital systems and networks.",
+        "duration": "3 years",
+        "future_job_opportunities": "Cyber security analyst, cyber security engineer, cyber security consultant",
+        "aspiring_students": "Students interested in cyber security and its applications",
+        "image": "bca-cyber-security.jpg"
+        },
+        "BCA ETHICAL HACKING": {
+        "description": "BCA Ethical Hacking is an undergraduate program that focuses on the use of ethical hacking techniques for security testing.",
+        "duration": "3 years",
+        "future_job_opportunities": "Ethical hacker, security analyst, penetration tester",
+        "aspiring_students": "Students interested in ethical hacking and its applications",
+        "image": "bca-ethical-hacking.jpg"
+        },
+        "BCA IOT": {
+        "description": "BCA IoT (Internet of Things) is an undergraduate program that focuses on the development of smart devices and systems.",
+        "duration": "3 years",
+        "future_job_opportunities": "IoT developer, IoT architect, IoT solutions architect",
+        "aspiring_students": "Students interested in the Internet of Things and its applications",
+        "image": "bca-iot.jpg"
+        },
+        "BCA ROBOTICS": {
+        "description": "BCA Robotics is an undergraduate program that focuses on the design, development, and operation of robotic systems.",
+        "duration": "3 years",
+        "future_job_opportunities": "Robotics engineer, robotics technician, automation specialist",
+        "aspiring_students": "Students interested in the field of robotics and automation",
+        "image": "bca-robotics.jpg"
+        },
+        "BCA MACHINE LEARNING": {
+        "description": "BCA Machine Learning is an undergraduate program that focuses on the development of algorithms that can learn from and make predictions based on data.",
+        "duration": "3 years",
+        "future_job_opportunities": "Machine learning engineer, data scientist, AI specialist",
+        "aspiring_students": "Students interested in the field of machine learning and artificial intelligence",
+        "image": "bca-machine-learning.jpg"
+        },
+        "BCA DIGITAL MARKETING": {
+        "description": "BCA Digital Marketing is an undergraduate program that focuses on the use of digital channels for marketing and advertising.",
+        "duration": "3 years",
+        "future_job_opportunities": "Digital marketing manager,social media manager, SEO specialist",
+        "aspiring_students": "Students interested in digital marketing and online advertising",
+        "image": "bca-digital-marketing.jpg"
+        },
+        "BVA": {
+        "description": "BVA (Bachelor of Visual Arts) is an undergraduate program that focuses on the study and practice of visual arts.",
+        "duration": "4 years",
+        "future_job_opportunities": "Artist, art director, graphic designer, illustrator",
+        "aspiring_students": "Students passionate about visual arts and creative expression",
+        "image": "bva.jpg"
+        }
+        }
+        },
+        "Law Courses": {
+        "image": "law-courses.jpg",
+        "courses": {
+        "BA LLB": {
+        "description": "BA LLB (Bachelor of Arts and Bachelor of Laws) is an undergraduate program that provides a comprehensive education in both arts and law.",
+        "duration": "5 years",
+        "future_job_opportunities": "Lawyer, legal consultant, legal advisor, legal researcher",
+        "aspiring_students": "Students interested in pursuing a career in law with a focus on arts subjects",
+        "image": "ba-llb.jpg"
+        },
+        "BBA LLB": {
+        "description": "BBA LLB (Bachelor of Business Administration and Bachelor of Laws) is an undergraduate program that combines business management and law studies.",
+        "duration": "5 years",
+        "future_job_opportunities": "Lawyer, corporate lawyer, legal consultant, legal advisor",
+        "aspiring_students": "Students interested in pursuing a career in law with a focus on business management",
+        "image": "bba-llb.jpg"
+        },
+        "LLM": {
+        "description": "LLM (Master of Laws) is a postgraduate program that offers advanced studies in various areas of law.",
+        "duration": "2 years",
+        "future_job_opportunities": "Lawyer, legal consultant, legal advisor, legal researcher",
+        "aspiring_students": "Students seeking to specialize in a specific area of law or pursue further education in law",
+        "image": "llm.jpg"
+        }
+        }
+        },
+        "Other Courses": {
+        "image": "other-courses.jpg",
+        "courses": {
+        "BHM": {
+        "description": "BHM (Bachelor of Hotel Management) is an undergraduate program that focuses on the management of hotels and other hospitality establishments.",
+        "duration": "3 years",
+        "future_job_opportunities": "Hotel manager, restaurant manager, event manager, travel agent",
+        "aspiring_students": "Students interested in the hospitality industry and its management",
+        "image": "bhm.jpg"
+        },
+        "BHA": {
+        "description": "BHA (Bachelor of Hospitality Administration) is an undergraduate program that focuses on the management of various hospitality services.",
+        "duration": "3 years",
+        "future_job_opportunities": "Hotel manager, restaurant manager, event manager, travel agent",
+        "aspiring_students": "Students interested in the hospitality industry and its management",
+        "image": "bha.jpg"
+        },
+        "BSW": {
+        "description": "BSW (Bachelor of Social Work) is an undergraduate program that focuses on the practice of social work and social welfare.",
+        "duration": "3 years",
+        "future_job_opportunities": "Social worker, social welfare officer, community development worker",
+        "aspiring_students": "Students interested in social work and social welfare",
+        "image": "bsw.jpg"
+        },
+        "BSC/MSC BIOTECHNOLOGY/MICROBIOLOGY/BIOCHEMISTRY": {
+        "description": "BSC/MSC Biotechnology, Microbiology, and Biochemistry are undergraduate/postgraduate programs that focus on the application of biological knowledge and techniques in various fields.",
+        "duration": "3 years (BSC) / 2 years (MSC)",
+        "future_job_opportunities": "Biotechnologist, microbiologist, biochemist, research scientist",
+        "aspiring_students": "Students interested in the biological sciences and their applications",
+        "image": "bsc-msc-biotechnology-microbiology-biochemistry.jpg"
+        },
+        "BSC FASHION DESIGN": {
+        "description": "BSC Fashion Design is an undergraduate program that focuses on the design and creation of fashion garments and accessories.",
+        "duration": "3 years",
+        "future_job_opportunities": "Fashion designer, fashion stylist, fashion merchandiser",
+        "aspiring_students": "Students passionate about fashion design and its applications",
+        "image": "bsc-fashion-design.jpg"
+        },
+        "BSC/MSC FORENSIC SCIENCE": {
+        "description": "BSC/MSC Forensic Science is an undergraduate/postgraduate program that focuses on the application of scientific methods to criminal investigations.",
+        "duration": "3 years (BSC) / 2 years (MSC)",
+        "future_job_opportunities": "Forensic scientist, crime scene investigator, laboratory analyst",
+        "aspiring_students": "Students interested in forensic science and its applications",
+        "image": "bsc-msc-forensic-science.jpg"
+        },
+        "BSC/MSC CRIMINOLOGY": {
+        "description": "BSC/MSC Criminology is an undergraduate/postgraduate program that focuses on the study of crime and its causes, as well as the prevention and punishment of crime.",
+        "duration": "3 years (BSC) / 2 years (MSC)",
+        "future_job_opportunities": "Criminologist, criminal justice analyst, law enforcement officer",
+        "aspiring_students": "Students interested in the study of crime and its prevention and punishment",
+        "image": "bsc-msc-criminology.jpg"
+        },
+        "BSC/MSC AGRICULTURE": {
+        "description": "BSC/MSC Agriculture are undergraduate/postgraduate programs that focus on the study of plant and animal sciences, as well as the management of agricultural systems.",
+        "duration": "3 years (BSC) / 2 years (MSC)",
+        "future_job_opportunities": "Agricultural scientist, farmer, agronomist, agricultural consultant",
+        "aspiring_students": "Students interested in agriculture and its management",
+        "image": "bsc-msc-agriculture.jpg"
+        },
+        "BA/MA": {
+        "description": "BA/MA (Bachelor of Arts/Master of Arts) are undergraduate/postgraduate programs that offer advanced studies in various humanities and social sciences subjects.",
+        "duration": "3 years (BA) / 2 years (MA)",
+        "future_job_opportunities": "Teacher, researcher, writer, journalist, content creator",
+        "aspiring_students": "Students interested in the humanities and social sciences",
+        "image": "ba-ma.jpg"
+        },
+        "BSC/MSC": {
+        "description": "BSC/MSC are undergraduate/postgraduate programs that offer advanced studies in various science subjects.",
+        "duration": "3 years (BSC) / 2 years (MSC)",
+        "future_job_opportunities": "Research scientist, laboratory analyst, science teacher",
+        "aspiring_students": "Students interested in the sciences",
+        "image": "bsc-msc.jpg"
+        },
+        "B.ED": {
+        "description": "B.Ed (Bachelor of Education) is an undergraduate program that focuses on the study of education and its pedagogy.",
+        "duration": "2 years",
+        "future_job_opportunities": "School teacher, education consultant, educational content creator",
+        "aspiring_students": "Students interested in education and its pedagogy",
+        "image": "bed.jpg"
+        },
+        "SHIPPING": {
+        "description": "Shipping is a field of study that focuses on the transportation of goods by sea.",
+        "duration": "3 years",
+        "future_job_opportunities": "Shipping manager, logistics coordinator, maritime operations specialist",
+        "aspiring_students": "Students interested in the maritime industry and logistics",
+        "image": "shipping.jpg"
+        }
+        }
+        }
+        }
